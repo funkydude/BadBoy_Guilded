@@ -1,0 +1,11 @@
+## Interface: 30300
+## Version: 1.0.0
+## Title: BadBoy_Guilded
+## Notes: Removes guild advertising from public channels.
+## Author: Funkydude
+## Dependencies: BadBoy
+## X-Category: Chat/Communication
+## X-License: All Rights Reserved
+
+BadBoy_Guilded.lua
+
