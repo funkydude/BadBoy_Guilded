@@ -6,7 +6,6 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,_,_,_,_,_,c
 	if not _G.CanComplainChat(id) then result = nil return end --Don't filter ourself/friends
 	if msg:find("[Gg][Uu][Ii][Ll][Dd]") or msg:find("[Rr][Ee][Cc][Rr][Uu][Ii][Tt]") then
 			result = true
-			print("NO_GUILD", msg)
 			return true --found a trigger, filter
 	end
 	result = nil
