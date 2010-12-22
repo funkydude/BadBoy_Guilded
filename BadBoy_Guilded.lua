@@ -7,7 +7,7 @@ local triggers = {
 	"guild.*looking", --<> <Level 2> Are A New, Friendly Socail Guild Looking For New Active Members Of Any Class To Level Up And Hit 85 So We Can Build Up And Raid Cataclysm Endgame Content. /w Me For Info or A Invite
 }
 local savedID, result = 0, nil
-ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,_,_,_,_,_,chanid,_,_,_,id)
+ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,player,_,_,_,_,chanid,_,_,_,id)
 	if id == savedID then return result else savedID = id end --Incase a message is sent more than once
 	if chanid == 0 or chanid == 25 then result = nil return end --Don't scan custom channels or GuildRecruitment channel
 	if not _G.CanComplainChat(id) or UnitIsInMyGuild(player) then result = nil return end --Don't filter ourself/friends
