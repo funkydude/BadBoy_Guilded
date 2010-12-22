@@ -11,8 +11,9 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,_,_,_,_,_,c
 	if not _G.CanComplainChat(id) then result = nil return end --Don't filter ourself/friends
 	msg = (msg):lower() --Lower all text, remove capitals
 	for i = 1, 3 do
-		if fnd(msg, triggers[i]) then --Found a match
+		if (msg):find(triggers[i]) then --Found a match
 			result = true
+			if BADBOY_DEBUG then print("GUILDED Blocked: ", msg) end
 			return true --found a trigger, filter
 		end
 	end
