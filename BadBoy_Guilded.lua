@@ -17,7 +17,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,player,_,_,
 	for i = 1, 7 do
 		if (msg):find(triggers[i]) then --Found a match
 			result = true
-			if BADBOY_DEBUG then print("|cFF33FF99BadBoy_GUILDED_BLOCK|r: ", msg) end
+			if BadBoyLogger then BadBoyLogger("Guilded", msg) end
 			return true --found a trigger, filter
 		end
 	end
