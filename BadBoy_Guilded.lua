@@ -14,7 +14,7 @@ local savedID, result, triggers = 0, nil, {
 	"pvp.*pve.*wh?isper", --instead of joining solo and end up loosing with randoms. Ofcourse we group up for Random HCs with both PvP and PvE players aswell and if the PvE group need an extra player for the raid, PvP guys can get invited. Whisper me for more info.
 	"recruit",
 }
-ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,player,_,_,_,_,chanid,_,_,_,id)
+ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanid,_,_,_,id)
 	if id == savedID then return result else savedID = id end --Incase a message is sent more than once
 	if chanid == 0 or chanid == 25 then result = nil return end --Don't scan custom channels or GuildRecruitment channel
 	if not _G.CanComplainChat(id) or UnitIsInMyGuild(player) then result = nil return end --Don't filter ourself/friends
@@ -22,7 +22,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,player,_,_,
 	for i = 1, #triggers do
 		if (msg):find(triggers[i]) then --Found a match
 			result = true
-			if BadBoyLogger then BadBoyLogger("Guilded", msg) end
+			if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
 			return true --found a trigger, filter
 		end
 	end
