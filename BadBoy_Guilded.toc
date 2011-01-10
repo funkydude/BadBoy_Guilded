@@ -1,5 +1,5 @@
 ## Interface: 40000
-## Version: 1.21
+## Version: 1.22
 ## Title: BadBoy_Guilded
 ## Notes: Removes guild advertising from public channels.
 ## Author: Funkydude
