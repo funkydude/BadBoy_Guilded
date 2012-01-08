@@ -1,5 +1,5 @@
 ## Interface: 40300
-## Version: 1.41
+## Version: 1.42
 ## Title: BadBoy_Guilded
 ## Notes: Removes guild advertising from public channels.
 ## Author: Funkydude
