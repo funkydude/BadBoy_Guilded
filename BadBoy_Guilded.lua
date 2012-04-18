@@ -1,4 +1,5 @@
 
+local strfind = string.find
 local savedID, result, triggers = 0, nil, {
 	"%.wowstead%.com",
 	"recruit",
@@ -18,7 +19,7 @@ local savedID, result, triggers = 0, nil, {
 	"guild.*pst",--<> an adult guild looking for more players who are active ,like to have fun ,talk in vent & will help others. LVL 5 GUILD !we'd like fun people to enjoy the new content of CATA,all lvls, classes, races are welcome PST FOR MORE INFO/INVI
 	"guild.*bank.*tabs", --Looking for a guild to relax after a hard day of work or school? <> is layed back and alota fun. We are a lev 7 guild and have 7 Guild Bank tabs. we have vent as well so stop by and check us out. come run some dungeons..
 	"guild.*wh?isper m[ey]", -- <> is a layed-back social level 10  heroic/raiding guild. We organize a few heroics/raids a week and ALWAYS use teamspeak while doing so. Is this something you like to do? Whisper me!
-	"www.*/w", --noch gute und zuverlässige Member für weitere 10er Stammgruppen später 25er.Gesucht werden:Heiler;Pala,Dudu - DD;Eule,Feral,Mage,Verstärker!Raidzeiten Mi,Do,So 19-22:30!Bewerbung unter [www.xyz.de] für Infos /w me
+	"bewerbung.*www.*/w", --noch gute und zuverlässige Member für weitere 10er Stammgruppen später 25er.Gesucht werden:Heiler;Pala,Dudu - DD;Eule,Feral,Mage,Verstärker!Raidzeiten Mi,Do,So 19-22:30!Bewerbung unter [www.xyz.de] für Infos /w me
 	"looking.*strengthen.*raid", --<> is looking for, 1 ele sham, 1 balance druid, 1 holy pala,  to strengthen our raid teams for the current 10 man raids. Raids 21.00-24.00 Mon,Wed,Thurs,Sun. 349+ gear req age 18+
 	"looking for.*/w.*info", --<><level10>Is looking for more people to start raiding with. We are in need of everything and dps needs to do atleast 10k+ dps and have atleast 345 Item level, /w me for an inv, or for more info
 	"guild.*welcome", -->< is a new dungeon/raid guild we are setting up our raid/HC group. ofc every lvl is welcome in our guild but we preff 60-85 all classes/races. You also have to be an active player
@@ -40,12 +41,29 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,
 	if not CanComplainChat(id) or UnitIsInMyGuild(player) then result = nil return end --Don't filter ourself/friends
 	msg = (msg):lower() --Lower all text, remove capitals
 	for i = 1, #triggers do
-		if (msg):find(triggers[i]) then --Found a match
+		if strfind(msg, triggers[i]) then --Found a match
 			result = true
 			if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
 			return true --found a trigger, filter
 		end
 	end
 	result = nil
+end)
+
+
+local whispers = {
+	"join my.*guild", --Would you like to join my social raiding guild?.. lv1 but it will grow fast with your help :D and lottery. u can win 50g a week. MORE later!!
+	"looking for more members.*join", --Hello, <> is looking for more members to join our ranks, we are both recruiting socials/levelers and raiders for our raiding team! We would like you, <>, to join our ranks.
+}
+
+ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
+	if not CanComplainChat(player) or UnitIsInMyGuild(player) then return end --Don't filter ourself/friends
+	msg = (msg):lower() --Lower all text, remove capitals
+	for i = 1, #whispers do
+		if strfind(msg, whispers[i]) then --Found a match
+			--if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
+			return true --found a trigger, filter
+		end
+	end
 end)
 
