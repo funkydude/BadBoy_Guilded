@@ -35,7 +35,7 @@ local savedID, result, triggers = 0, nil, {
 	"team.*looking.*raiders", --<> is trying to gather a exceptional raiding team to raid FL hc and DS, we are curently looking for skilled raiders who knows the bosses, have decent gear and have a fair amount of raiding exp, we raid Mondays and Thursday 20:00 - 23:00
 }
 
-ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanid,_,_,_,id)
+ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,_,msg,player,_,_,_,_,chanid,_,_,_,id)
 	if id == savedID then return result else savedID = id end --Incase a message is sent more than once
 	if chanid == 0 or chanid == 25 then result = nil return end --Don't scan custom channels or GuildRecruitment channel
 	if not CanComplainChat(id) or UnitIsInMyGuild(player) then result = nil return end --Don't filter ourself/friends
@@ -43,7 +43,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,
 	for i = 1, #triggers do
 		if strfind(msg, triggers[i]) then --Found a match
 			result = true
-			if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
+			if BadBoyLogger then BadBoyLogger("Guilded", player, msg) end
 			return true --found a trigger, filter
 		end
 	end
@@ -54,14 +54,16 @@ end)
 local whispers = {
 	"join my.*guild", --Would you like to join my social raiding guild?.. lv1 but it will grow fast with your help :D and lottery. u can win 50g a week. MORE later!!
 	"looking for more members.*join", --Hello, <> is looking for more members to join our ranks, we are both recruiting socials/levelers and raiders for our raiding team! We would like you, <>, to join our ranks.
+	"social guild.*wh?ant.*players", --Hello. Were a social guild that whants to help new players to get better. In oure stab we have a Raid Leader from the guild <> and a member of the guild. With good experience from DS and been playing Since TBC. And we whant to help you to get better !
+	"guild.*please come.*bonus", --Our guild have %10 xp %10 Mount Speed and % 100 Spirit speed boost please come and lvl at our guild if you hit from 80 lvl to 85 lvl while in this guild you will get a bonus 1.5 k gold
 }
 
-ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
+ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,_,msg,player)
 	if not CanComplainChat(player) or UnitIsInMyGuild(player) then return end --Don't filter ourself/friends
 	msg = (msg):lower() --Lower all text, remove capitals
 	for i = 1, #whispers do
 		if strfind(msg, whispers[i]) then --Found a match
-			--if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
+			if BadBoyLogger then BadBoyLogger("Guilded[W]", player, msg) end
 			return true --found a trigger, filter
 		end
 	end
