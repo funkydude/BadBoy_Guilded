@@ -69,7 +69,7 @@ local whispers = {
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
-	if not CanComplainChat(player) or UnitIsInMyGuild(player) then return end --Don't filter ourself/friends
+	if not BADBOY_GWHISPERS or not CanComplainChat(player) or UnitIsInMyGuild(player) then return end --Don't filter ourself/friends
 	msg = (msg):lower() --Lower all text, remove capitals
 	for i = 1, #whispers do
 		if strfind(msg, whispers[i]) then --Found a match

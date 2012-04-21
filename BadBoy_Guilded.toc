@@ -4,8 +4,10 @@
 ## Notes: Removes guild advertising from public channels.
 ## Author: Funkydude
 ## Dependencies: BadBoy
+## SavedVariables: BADBOY_GWHISPERS
 ## X-Category: Chat/Communication
 ## X-License: All Rights Reserved
 
+SimpleOptions.lua
 BadBoy_Guilded.lua
 
