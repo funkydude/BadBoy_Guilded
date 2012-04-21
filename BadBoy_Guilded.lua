@@ -70,6 +70,7 @@ local whispers = {
 	"join.*community.*gbank", --Hello <> Come And Join <> now and be part of a fast growing community we have a Gbank :) we may be lvl 1 but we are aiming high for the sky and thats why we need you
 	"%d.*perks.*social.*guild", --<> 6/8 HC DS , Take advatage of our perks and socials lvl 25 guild.
 	"join.*<.*>.*epic", --Join <>, get good, get pro, get epic, get LEGEND. Be Dragonborn..
+	"guild.*friendly.*player.*repair", --Hey, we are a levelling guild that plans to be very friendly and reward our players for helping the guild. We will provide higher rewards for pro-active players. Once the guild properly starts guild repairs will be provided for everyone. Give us a shot!!
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
