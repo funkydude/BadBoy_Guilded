@@ -2,6 +2,7 @@
 ## Version: 2.00
 ## Title: BadBoy_Guilded
 ## Notes: Removes guild advertising from public channels.
+## Notes-frFR: Enlève les publicités des guildes des canaux publiques.
 ## Author: Funkydude
 ## Dependencies: BadBoy
 ## SavedVariables: BADBOY_GWHISPERS
