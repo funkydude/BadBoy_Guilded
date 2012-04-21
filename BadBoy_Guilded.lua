@@ -66,6 +66,9 @@ local whispers = {
 	"would.*join our.*guild", --Would you like to join our guild ? if you join We will pay your all repair costrs...
 	"new.*guild.*repair", --Greetings <>! <> is a newly started social guild where you have a possibility to advance into high-end content. We'll soon be providing with guild repairs as well as hosting events! Come, take part of the community! We have 10% XP, REP an
 	"hey.*join.*guild.*repair", --hey m8 u want to join in 14 level social guild with 10% more xp from quest and 30 gold every day free repair??
+	"greet.*social guild.*repair", --Greetings <>! <> of lvl 12  is a newly formed social guild where you have a chance to advance into high-end content. We'll soon be providing with guild repairs as well as hosting events! Come, take part of the <> community!
+	"like to join.*guild.*accept", --Would you like to join my guild? The please press Accept!
+	"like to join.*social.*guild", --Hello <>,how are you? would you like to join <> a newly created socialplayer guild!
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
