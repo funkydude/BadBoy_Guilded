@@ -54,21 +54,22 @@ end)
 
 local whispers = {
 	"would.*join my.*guild", --Would you like to join my social raiding guild?.. lv1 but it will grow fast with your help :D and lottery. u can win 50g a week. MORE later!!
+	"would.*join our.*guild", --Would you like to join our guild ? if you join We will pay your all repair costrs...
+	"would.*join.*social.*guild", --Hello <>,how are you? would you like to join <> a newly created socialplayer guild!
+	"want.*join.*social.*guild", --hey m8 u want to join in 14 level social guild with 10% more xp from quest and 30 gold every day free repair??
+
 	"looking for.*members.*join", --Hello, <> is looking for more members to join our ranks, we are both recruiting socials/levelers and raiders for our raiding team! We would like you, <>, to join our ranks.
-	"social guild.*wh?ant.*players", --Hello. Were a social guild that whants to help new players to get better. In oure stab we have a Raid Leader from the guild <> and a member of the guild. With good experience from DS and been playing Since TBC. And we whant to help you to get better !
-	"guild.*please come.*bonus", --Our guild have %10 xp %10 Mount Speed and % 100 Spirit speed boost please come and lvl at our guild if you hit from 80 lvl to 85 lvl while in this guild you will get a bonus 1.5 k gold
 	"raid.*guild.*looking for", --Social casual raiding Guild 8/8 <> is looking for raiders for our DS run, we are in need of 3 healers. perfer with os dps. our main raidday is wednesday...
+	"recruit.*members.*join", --<> is recruiting members. We raid,quest and dungeon together feel free to join.
+
+	"social guild.*wh?ant.*players", --Hello. Were a social guild that whants to help new players to get better. In oure stab we have a Raid Leader from the guild <> and a member of the guild. With good experience from DS and been playing Since TBC. And we whant to help you to get better !
+	"guild.*recruit.*social", --Hello, were a lvl 2 guild looking to recruit members of all lvl's.We're a social guild looking for members to help us reach lvl 25
+	"new.*social guild.*repair", --Greetings <>! <> is a newly started social guild where you have a possibility to advance into high-end content. We'll soon be providing with guild repairs as well as hosting events! Come, take part of the community! We have 10% XP, REP an
+
+	"guild.*please come.*bonus", --Our guild have %10 xp %10 Mount Speed and % 100 Spirit speed boost please come and lvl at our guild if you hit from 80 lvl to 85 lvl while in this guild you will get a bonus 1.5 k gold
 	"join.*community.*gbank", --Hello <> Come And Join <> now and be part of a fast growing community we have a Gbank :) we may be lvl 1 but we are aiming high for the sky and thats why we need you
 	"%d.*perks.*social.*guild", --<> 6/8 HC DS , Take advatage of our perks and socials lvl 25 guild.
-	"join.*<.*>.*epic.*legend", --Join <>, get good, get pro, get epic, get LEGEND. Be Dragonborn..
-	"recruit.*members.*join", --<> is recruiting members. We raid,quest and dungeon together feel free to join.
-	"guild.*recruit.*social", --Hello, were a lvl 2 guild looking to recruit members of all lvl's.We're a social guild looking for members to help us reach lvl 25
-	"would.*join our.*guild", --Would you like to join our guild ? if you join We will pay your all repair costrs...
-	"new.*guild.*repair", --Greetings <>! <> is a newly started social guild where you have a possibility to advance into high-end content. We'll soon be providing with guild repairs as well as hosting events! Come, take part of the community! We have 10% XP, REP an
-	"hey.*join.*guild.*repair", --hey m8 u want to join in 14 level social guild with 10% more xp from quest and 30 gold every day free repair??
-	"greet.*social guild.*repair", --Greetings <>! <> of lvl 12  is a newly formed social guild where you have a chance to advance into high-end content. We'll soon be providing with guild repairs as well as hosting events! Come, take part of the <> community!
-	"like to join.*guild.*accept", --Would you like to join my guild? The please press Accept!
-	"like to join.*social.*guild", --Hello <>,how are you? would you like to join <> a newly created socialplayer guild!
+	"join.*<.*>.*epic", --Join <>, get good, get pro, get epic, get LEGEND. Be Dragonborn..
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
