@@ -55,6 +55,7 @@ end)
 local whispers = {
 	"would.*join my.*guild", --Would you like to join my social raiding guild?.. lv1 but it will grow fast with your help :D and lottery. u can win 50g a week. MORE later!!
 	"would.*join our.*guild", --Would you like to join our guild ? if you join We will pay your all repair costrs...
+	"would.*join a.*guild", --Would You Like To Join a New Guild ? Help us Grow. That Will Give You Free Repair When You Reach Lvl 5! wen you reach 85 u will Get 2000g
 	"would.*join.*social.*guild", --Hello <>,how are you? would you like to join <> a newly created socialplayer guild!
 	"want.*join.*social.*guild", --hey m8 u want to join in 14 level social guild with 10% more xp from quest and 30 gold every day free repair??
 
