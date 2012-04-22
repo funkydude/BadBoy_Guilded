@@ -72,6 +72,8 @@ local whispers = {
 	"%d.*perks.*social.*guild", --<> 6/8 HC DS , Take advatage of our perks and socials lvl 25 guild.
 	"join.*<.*>.*epic", --Join <>, get good, get pro, get epic, get LEGEND. Be Dragonborn..
 	"guild.*friendly.*player.*repair", --Hey, we are a levelling guild that plans to be very friendly and reward our players for helping the guild. We will provide higher rewards for pro-active players. Once the guild properly starts guild repairs will be provided for everyone. Give us a shot!!
+	"new.*guild.*casual.*raid", --* is a new started Guild, that will be a Casual guild from the start. But when we get peoples we will start doing Rbg, Raids etc. On a casual level
+	"recruit.*player.*raid.*whisp", --"*" now recruiting new players! Need all classes and all specs! Ready for raiding, but we just need the people, Whisper for more! Levelers and pvpers welcome!
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
