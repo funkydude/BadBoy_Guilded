@@ -8,7 +8,7 @@ local savedID, result, triggers = 0, nil, {
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
 	"www.*apply", --pls go to www.*.com to apply or wisp me for extra info.
 	"looking.*members", -- <<>> is a social levelling looking for all members no lvl requirement, Once we have more members were looking to do Raids and PvP premades, /w if you would like to join please or  /w me for info.
-	"guild.*join", --<> is a lvling guild but as soon as we have enough 85 we will raid  we are here not 2 take the game 2 serously and 2 have fun if u wanna join wisper me or <> any lvl welcome :) 
+	"guild.*join", --<> is a lvling guild but as soon as we have enough 85 we will raid  we are here not 2 take the game 2 serously and 2 have fun if u wanna join wisper me or <> any lvl welcome :)
 	"levell?in.*guild", --<> Easy Going Leveling Guild LFM of any levels, we are friendly, helpfull and have 6 guild tabs available.
 	"apply.*www", --<> We Are Looking For people Item lvl 333+ for our25man Cataclysm Raiding team. Must Be over 18+ to Apply or Have some insane Skills. If you Got Any Questions Go to www.<>.net Or contact me or a officer.
 	"gu?ilde?.*[/w][/w]", --<> is a newly formed social guild for all classes and levels. Our aim is to have fun and we hope to do raids when we are big enough. For any more info or an invite /w me. Thank You.
@@ -24,7 +24,7 @@ local savedID, result, triggers = 0, nil, {
 	"lookk?ing.*welcome", --<> is a lvl 11 recuiting for their 10man group, lookking for people with experiance with a min 348 ilvl (2ranged dps ) all other players are welcome we are 6/12 with cataclysm bosses - raid times are mon - thurs 8:00pm to 12:00am (midnight) Pst
 	"raid.*%.com", --<> <lvl 23> has openings in its' 25 man raid group, Raids are Sunday - Thurs 9-12. see xyz.com for info
 	"looking.*raidtimes.*/w", --Knixxs Order of the Darkside -  Lvl 25. We are on the lookout for Tanks and Healers for our raidteam. We are currently 5/12 and looking to progress further. Our raidtimes are: Wed, Thurs and Sunday, 21:15 realm time. For more info /w me. Thanks :)
-	"social.*leveling.*looking", --<> <level 6> Is a social leveling looking for people to fill out raiding spots. Currently in need of dps and healers. Starting firelands trash runs & eventually boss runs. 
+	"social.*leveling.*looking", --<> <level 6> Is a social leveling looking for people to fill out raiding spots. Currently in need of dps and healers. Starting firelands trash runs & eventually boss runs.
 	"looking.*player.*social", --<> (6) Looking for more players to set our first raiding team and also our first RBG team! We are looking for social players that is experienced of either Raiding or PvP. Whisper me if you want more information about us and our plans!
 	"team.*looking.*raiders", --<> is trying to gather a exceptional raiding team to raid FL hc and DS, we are curently looking for skilled raiders who knows the bosses, have decent gear and have a fair amount of raiding exp, we raid Mondays and Thursday 20:00 - 23:00
 	"looking for.*raid.*progress", --<> is currently looking for a Warlock ready for raiding DS10 HC. We're currently 5/8 HC and progressing every week. You have to know what you're doing and your gear must be ready to go tonight. We prefer Swedes
@@ -46,7 +46,6 @@ local savedID, result, triggers = 0, nil, {
 	"gu?ilde?.*raid.*bank", --Die neue Gilde "<>" sucht noch nette Mitspieler zum Leveln, Questen, Raiden und Spaß haben. Ts³ und Gildenbank ist vorhanden.
 	"gilde.*such[et]", --Moin, der lustige Haufen (Gilde) "<>" suchen noch ältere Spieler (22+) für Instanzen, Questen, Heros und 10er; Spielspaß ist dabei die absolute Mussbedingung! Wenn du dich angesprochen fühlst, schreib uns einfach mal:) [www.<>.de]
 	"gilde.*inte?rr?esse", --Die Gilde <> sucht nette Mitspieler zum gemeinsamen questen, spass haben, heros abfarmen, pvp zocken usw... Sind keine raidgilde und wollen es auch nicht werden. Neuanfänger sowie lowlvl gerne willkommen. Intresse? pls w/m
-
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanid,_,_,_,id)
@@ -79,6 +78,7 @@ local whispers = {
 	"social guild.*wh?ant.*players", --Hello. Were a social guild that whants to help new players to get better. In oure stab we have a Raid Leader from the guild <> and a member of the guild. With good experience from DS and been playing Since TBC. And we whant to help you to get better !
 	"guild.*recruit.*social", --Hello, were a lvl 2 guild looking to recruit members of all lvl's.We're a social guild looking for members to help us reach lvl 25
 	"new.*social guild.*repair", --Greetings <>! <> is a newly started social guild where you have a possibility to advance into high-end content. We'll soon be providing with guild repairs as well as hosting events! Come, take part of the community! We have 10% XP, REP an
+	"join.*guild.*member", --Hi * , please join our Level 15 guild for for weekly raids & rbgs and %10 extra XP. We do dungeon runs to help our low level members too.
 
 	"guild.*please come.*bonus", --Our guild have %10 xp %10 Mount Speed and % 100 Spirit speed boost please come and lvl at our guild if you hit from 80 lvl to 85 lvl while in this guild you will get a bonus 1.5 k gold
 	"join.*community.*gbank", --Hello <> Come And Join <> now and be part of a fast growing community we have a Gbank :) we may be lvl 1 but we are aiming high for the sky and thats why we need you
