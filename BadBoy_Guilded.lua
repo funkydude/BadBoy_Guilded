@@ -89,6 +89,8 @@ local whispers = {
 	"recruit.*player.*raid.*whisp", --"*" now recruiting new players! Need all classes and all specs! Ready for raiding, but we just need the people, Whisper for more! Levelers and pvpers welcome!
 	"social guild.*member.*join", --Hello *. * (25) is a  social guild with 900+ members join us and have fun
 	"guild.*invite.*boost.*join", --THIS IS THE BEST GUILD YOU'LL EVER BE INVITED TO, SO GO ON AND DO WHAT YOU KNOW YOU MUST DO ......... accept the [invite] ;) plus there's a 10% exp boost for joining :P
+	"guild.*recruit.*faster", --Hi! * <<*>> is the BEST Guild in THE WORLD and WE are recruiting YOU cause YOU PWN, does that make sense?? - NO... but who cares? (((( 5% xp bonus (soon 10%) and 10% faster mount))))
+	"recruit.*player.*social", --Hello *, * is recruiting players of all levels and skills as socials along with end game experienced raiders for our newly formed friendly guild, english speaking mature players, click accept now to join :)
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
