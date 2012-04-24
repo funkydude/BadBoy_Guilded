@@ -101,6 +101,7 @@ local whispers = {
 	"recruit.*player.*social", --Hello *, * is recruiting players of all levels and skills as socials along with end game experienced raiders for our newly formed friendly guild, english speaking mature players, click accept now to join :)
 	"guild.*join.*repair", --Hello *, sorry to bother you but * is a lvl 25 guild and is the biggest growing guild on the server! Join us and gain Guild Repair and 10% more XP, Honor and Justice Points! We have hundreds of level 85 characters already!
 	"guild.*looking.*member", --<*> is a level 3 guild looking for members. Come enjoy [Fast Track], [Mount Up] and more!
+	"recruit.*casual.*repair", --<*> is now recuiting! We are a casual and fun guild atm but will focus on both PvE and PvP when the time is right! We want you who is active and like to play much! We will soon have guild repair and a open guildbank!
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
