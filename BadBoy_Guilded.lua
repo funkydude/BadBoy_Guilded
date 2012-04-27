@@ -29,10 +29,11 @@ local savedID, result, triggers = 0, nil, {
 	"team.*looking.*raiders", --<> is trying to gather a exceptional raiding team to raid FL hc and DS, we are curently looking for skilled raiders who knows the bosses, have decent gear and have a fair amount of raiding exp, we raid Mondays and Thursday 20:00 - 23:00
 	"looking for.*raid.*progress", --<> is currently looking for a Warlock ready for raiding DS10 HC. We're currently 5/8 HC and progressing every week. You have to know what you're doing and your gear must be ready to go tonight. We prefer Swedes
 	"social.*looking.*join", --Hello there! :D  * (lvl25)  is looking for socials. We're looking for pvp, old raid, chat or leveling oriented ppl or ppl who like to chat. We got spots for social/alt raids aswell, if u like to raid. Fancy joining? /W me! hf :D
+	"new.*guild.*rate", --<*> is a newly formed pvp guild, aiming to do rated bgs. No lvl requirement atm
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
-	"social.*välkomna", --* är ett svenkt LvL25 guild som nu söker nya members till kommande expansion Mists of Pandaria. Just nu är vi ett socialt guild, där alla är välkomna. Kommer börja köra RAIDS och RBG:s inom snar framtid.
+	"guild.*söker", -- *  är ett svenskt  LvL25  guild som nu söker nya members. Vi kör Dragon Soul 10-manna. Vi söker PvE till Raid, PvP:are till RBG:s och även sociala spelare som vill ha ett bra ställe att hänga på :)
 
 	--Finnish
 	"kilta.*etsii", --*, Suomalainen PvE-kilta joka etsii vain pelaajia jotka osaavat liikkua tulesta ja joita kiinnostaisi raidata 10man DS normaalia ja heroiccia jatkossa, tähtäämme parempaan tasoon kuin suurin osa servun suomikilloista! /w jos kysyttävää
@@ -50,12 +51,18 @@ local savedID, result, triggers = 0, nil, {
 	"gilde.*such[et]", --Moin, der lustige Haufen (Gilde) "<>" suchen noch ältere Spieler (22+) für Instanzen, Questen, Heros und 10er; Spielspaß ist dabei die absolute Mussbedingung! Wenn du dich angesprochen fühlst, schreib uns einfach mal:) [www.<>.de]
 	"gilde.*inte?rr?esse", --Die Gilde <> sucht nette Mitspieler zum gemeinsamen questen, spass haben, heros abfarmen, pvp zocken usw... Sind keine raidgilde und wollen es auch nicht werden. Neuanfänger sowie lowlvl gerne willkommen. Intresse? pls w/m
 
+	--French
+	"recrute",
+
 	--Turkish
 	"ekibi.*oyuncu.*sosyal", --*/10m  5/8 HC  2. RAID ekibi için  390 ve üstü ilvl a sahip, raidlere düzenli takılabilecek HER CLASS VE SPECC ten oyuncu alımları yapılacaktır. Sosyal alımlarımız bulunmaktadır. Basvuru ıcın /w
 	"guild.*aranıyor", --Guildimize beraber lvl kasmak isteyen arkadaşlar aranıyor. 1lvl %50 deyiz......
 	--* [25] 5/8 HC  Progressimize Düzenli katilim saglayacan Heroic deneyimi olan Mage,Lock aramaktadir.Social alimi da gerceklestirilmektedir . Detayli bilgi icin /w
 	"progress?imiz[ei].*so[cs][iy]al", --* [25 Lvl]10M5/8 HC Progresimizi ilerletmeye yardimci olabilecek HC Tecrubesi olan Mage Lock sp alimi yapilacaktir. Ayrica sosyal alimimiz da vardir
 	"progress.*arıyor", --* (25 lvl) 6/8 hc progress, Spine ve Madness progressine katkıda bulunabilecek online süresi yüksek yeterli gear ve oyunculuk seviyesine sahip 1 melee dps arıyor. Bilgi için /w
+
+	--Hungarian
+	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanid,_,_,_,id)
