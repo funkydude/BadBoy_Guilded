@@ -23,7 +23,7 @@ do
 	if L == "frFR" then
 		guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "deDE" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		guildedWhispersText:SetText("Entferne geflüsterte Gildeneinladungen")
 	elseif L == "zhTW" then
 		guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "zhCN" then
