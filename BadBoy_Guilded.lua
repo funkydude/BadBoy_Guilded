@@ -65,6 +65,8 @@ local savedID, result, triggers = 0, nil, {
 	"progres.*aran?maktadır", --*/10m  5/8 HC  ACIL OLARAK, PROGRESS ekibi için en az 3 boss HC deneyimi olan 395-400 arasında ilvl a sahip, raidlere düzenli takılabilecek ELEM SHMY, BLANCE DRUID ve LOCK oyuncular aranmaktadır. Basvuru ve bilgi icin /w.
 	"progres.*guild", --8:30 da basliycak olan hc progresimize 1 burst dps gerek! guild run 6/8 hc progresimiz war Spine hc icin sabırlı 1 dps lazim ''*'' !!! Spine dan baslanıcak!!!
 	"aran?maktadır.*progres", --*  - * yeni transfer olmustur ve suanki tier ve MOP icin kadrosuna classina hakim oyuncular aramaktadır ,Suanki 1/8 HC progressimiz devam ettirmek istiyoruz oncelikli Tank ve Healer alimi vardir.
+	"guild.*raid.*oyuncu", --* guildi kurulmuş olan 25 man kadrosunu güçlendiriyor. Raidlere istekli katılacak, saygılı ve paylaşımı seven türk oyuncuları bekliyoruz. 
+	"başvuru.*www", --Hurish Başvuru için lütfen "www.*.com" adresine giriş yaparak formu doldurunuz.
 
 	--Hungarian
 	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
@@ -119,6 +121,7 @@ local whispers = {
 	"guild.*looking.*member", --<*> is a level 3 guild looking for members. Come enjoy [Fast Track], [Mount Up] and more!
 	"recr?uit.*casual.*repair", --<*> is now recuiting! We are a casual and fun guild atm but will focus on both PvE and PvP when the time is right! We want you who is active and like to play much! We will soon have guild repair and a open guildbank!
 	"want.*friendly.*pv[pe].*environment", --Do you want to a friendly environment with both PvE and PvP events every week. We are altso capable of helping with your character. "specc - gemming and how to optimize your dps/healing. We hope you will find our environment suited for you!
+	"social.*le?ve?l.*guild", --* Its only for the sirs of sirs so if you think your sir enough for the sirs of sirs then whisper the best sir of sirs (me) and join the soon to be best social,leveling,questing,SIRING,raiding,pvping guild EVER!! .......Like a Sir!
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
