@@ -125,6 +125,7 @@ local whispers = {
 	"join.*le?ve?l.*mount.*rep", --Join for Faster leveling! Faster Mount! More reputation gains and more!!
 	"guild.*recruit.*repair", --Hi, <*> is a newly formed leveling and questing level 16 guild which is now recruiting more people ! Come on * , give it a shot ! Guild repairs are also available !
 	"hello.*guild.*raid.*join", --Hello there Fancy a guild that doesnt just focus on it's 10 man  team with friendships made and other stuff apart from just raiding? Then this might be the guild for you From a rebuilt transferred guild we offer u the chance to join in on our WoW exp.
+	"guild.*looking.*social", --Hello, * is a newly formed guild transfered from *, with DS experienced leadership. We are currenlty looking for active people to help us level up the guild, and continue our DS progress. Socials are always welcome aswell.
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
