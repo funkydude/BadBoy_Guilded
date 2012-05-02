@@ -123,6 +123,8 @@ local whispers = {
 	"want.*friendly.*pv[pe].*environment", --Do you want to a friendly environment with both PvE and PvP events every week. We are altso capable of helping with your character. "specc - gemming and how to optimize your dps/healing. We hope you will find our environment suited for you!
 	"social.*le?ve?l.*guild", --* Its only for the sirs of sirs so if you think your sir enough for the sirs of sirs then whisper the best sir of sirs (me) and join the soon to be best social,leveling,questing,SIRING,raiding,pvping guild EVER!! .......Like a Sir!
 	"join.*le?ve?l.*mount.*rep", --Join for Faster leveling! Faster Mount! More reputation gains and more!!
+	"guild.*recruit.*repair", --Hi, <*> is a newly formed leveling and questing level 16 guild which is now recruiting more people ! Come on * , give it a shot ! Guild repairs are also available !
+	"hello.*guild.*raid.*join", --Hello there Fancy a guild that doesnt just focus on it's 10 man  team with friendships made and other stuff apart from just raiding? Then this might be the guild for you From a rebuilt transferred guild we offer u the chance to join in on our WoW exp.
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
