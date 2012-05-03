@@ -4,7 +4,7 @@ local savedID, result, triggers = 0, nil, {
 	"wowstead",
 	"guildlaunch",
 	"enjin",
-	"re[cq]ruit",
+	"re[cq]rui?t",
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
 	"www.*apply", --pls go to www.*.com to apply or wisp me for extra info.
 	"looking.*members", -- <<>> is a social levelling looking for all members no lvl requirement, Once we have more members were looking to do Raids and PvP premades, /w if you would like to join please or  /w me for info.
@@ -39,6 +39,7 @@ local savedID, result, triggers = 0, nil, {
 	"guild.*söker", -- *  är ett svenskt  LvL25  guild som nu söker nya members. Vi kör Dragon Soul 10-manna. Vi söker PvE till Raid, PvP:are till RBG:s och även sociala spelare som vill ha ett bra ställe att hänga på :)
 	"guild.*folk.*whisp", --<*> Nystartad, svensk, seriös PvE-guild som satsar på att få in seriöst folk till våra 10-manna DS Heroics. Raidar fre 20-00 samt sön 19-22. Låter detta intressant så whispar DU mig för vidare information.
 	"söker.*guild", --<*> Söker nu efter aktiva gamers som vill ingå ett helt fresh RBG team inom guilden. Vårat mål är 2.4-HOTA. T2/legendary/Bra pve items är STORT PLUS. REQ: 2.2k exp RBG/ARENA. Störst behov: Boomkin, Rshaman eller Rdruid och Disc
+	"söker.*progg?ress", --<*> DS 2/8 HC Söker nu efter 1 healer (hpala,dpriest,rshammy) för HC proggress i DS /w mig så tar vi ett snack.
 
 	--Finnish
 	"kilta.*etsii", --*, Suomalainen PvE-kilta joka etsii vain pelaajia jotka osaavat liikkua tulesta ja joita kiinnostaisi raidata 10man DS normaalia ja heroiccia jatkossa, tähtäämme parempaan tasoon kuin suurin osa servun suomikilloista! /w jos kysyttävää
@@ -55,9 +56,6 @@ local savedID, result, triggers = 0, nil, {
 	"gu?ilde?.*raid.*bank", --Die neue Gilde "<>" sucht noch nette Mitspieler zum Leveln, Questen, Raiden und Spaß haben. Ts³ und Gildenbank ist vorhanden.
 	"gilde.*such[et]", --Moin, der lustige Haufen (Gilde) "<>" suchen noch ältere Spieler (22+) für Instanzen, Questen, Heros und 10er; Spielspaß ist dabei die absolute Mussbedingung! Wenn du dich angesprochen fühlst, schreib uns einfach mal:) [www.<>.de]
 	"gilde.*inte?rr?esse", --Die Gilde <> sucht nette Mitspieler zum gemeinsamen questen, spass haben, heros abfarmen, pvp zocken usw... Sind keine raidgilde und wollen es auch nicht werden. Neuanfänger sowie lowlvl gerne willkommen. Intresse? pls w/m
-
-	--French
-	"recrute",
 
 	--Turkish
 	"raid.*deneyimi.*aran?maktadır", --*  5/8 HC  Raidlere düzenli katılım saglayacak Hc deneyimi olan Mage  ve Holy Pala aranmaktadır
@@ -101,6 +99,7 @@ local whispers = {
 	"invite.*social.*guild.*join", --Hello *! You have been invited to * a newly founded social guild, hope you join! Cant wait to see you!:)
 	"wanna.*join.*guild.*le?ve?l", --Heya wanna join Guild * lvl 25 for faster lvling? :)
 	"hello.*intere?sted.*join.*guild", --Hello,  intersted in joining a guild? :)
+	"would.*join.*please.*accept", --Would you like to join [[*]] please press Accept!o _O
 
 	"looking for.*members.*join", --Hello, <> is looking for more members to join our ranks, we are both recruiting socials/levelers and raiders for our raiding team! We would like you, <>, to join our ranks.
 	"raid.*guild.*looking for", --Social casual raiding Guild 8/8 <> is looking for raiders for our DS run, we are in need of 3 healers. perfer with os dps. our main raidday is wednesday...
@@ -133,6 +132,8 @@ local whispers = {
 	"guild.*looking.*social", --Hello, * is a newly formed guild transfered from *, with DS experienced leadership. We are currenlty looking for active people to help us level up the guild, and continue our DS progress. Socials are always welcome aswell.
 	"guild.*raid.*le?ve?l.*join", --Hey mate :) <*> is a new PvP Guild! Our main focus will ofc be in MoP! We will also set up Raids, and have a few groups for raiding :) In the beginning we will focus on levling, getting people geared, skilled and exp'ed. Please join if u PvP:
 	"guild.*repair.*join", --Hey there!, i noticed your new? ;D. i've just started off a guild with free repairs, and bank tab use, along with perks to come, care to join? :) ... Let me know :)!
+	"recruit.*guild.*join", --Hello *! <*> is now recruiting!Awsome guild!, join now!
+	"guild.*le?ve?l.*raid.*player", --Guild * Level 9. HI *. We are a good guild and there you can do everything. RAID ARENA RBG BG DG achiv. You say us wht you want to do and we try to organise it! we are not too much so you will be in a great family of good player
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
