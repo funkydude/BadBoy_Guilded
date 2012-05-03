@@ -31,11 +31,13 @@ local savedID, result, triggers = 0, nil, {
 	"social.*looking.*join", --Hello there! :D  * (lvl25)  is looking for socials. We're looking for pvp, old raid, chat or leveling oriented ppl or ppl who like to chat. We got spots for social/alt raids aswell, if u like to raid. Fancy joining? /W me! hf :D
 	"new.*guild.*rate", --<*> is a newly formed pvp guild, aiming to do rated bgs. No lvl requirement atm
 	"need.*apply", --[*]  7/8 HC ,in need of 1x melee  DPS &1x range dps and 1x healer . exceptionals are always  welcome to apply @ *, com  , /w for more info
+	"progress.*raid.*interest", --<*>  is 1/8 DS 10 HC, working @ progress in DS Heroic. We look for ppl who love progress like a team. Atm we need all clases. We raid Wednesday and Thursday (alt run). /w me if u are interested to progress.
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
 	"guild.*söker", -- *  är ett svenskt  LvL25  guild som nu söker nya members. Vi kör Dragon Soul 10-manna. Vi söker PvE till Raid, PvP:are till RBG:s och även sociala spelare som vill ha ett bra ställe att hänga på :)
 	"guild.*folk.*whisp", --<*> Nystartad, svensk, seriös PvE-guild som satsar på att få in seriöst folk till våra 10-manna DS Heroics. Raidar fre 20-00 samt sön 19-22. Låter detta intressant så whispar DU mig för vidare information.
+	"söker.*guild", --<*> Söker nu efter aktiva gamers som vill ingå ett helt fresh RBG team inom guilden. Vårat mål är 2.4-HOTA. T2/legendary/Bra pve items är STORT PLUS. REQ: 2.2k exp RBG/ARENA. Störst behov: Boomkin, Rshaman eller Rdruid och Disc
 
 	--Finnish
 	"kilta.*etsii", --*, Suomalainen PvE-kilta joka etsii vain pelaajia jotka osaavat liikkua tulesta ja joita kiinnostaisi raidata 10man DS normaalia ja heroiccia jatkossa, tähtäämme parempaan tasoon kuin suurin osa servun suomikilloista! /w jos kysyttävää
@@ -57,6 +59,7 @@ local savedID, result, triggers = 0, nil, {
 	"recrute",
 
 	--Turkish
+	"raid.*deneyimi.*aran?maktadır", --*  5/8 HC  Raidlere düzenli katılım saglayacak Hc deneyimi olan Mage  ve Holy Pala aranmaktadır
 	"ekibi.*oyuncu.*sosyal", --*/10m  5/8 HC  2. RAID ekibi için  390 ve üstü ilvl a sahip, raidlere düzenli takılabilecek HER CLASS VE SPECC ten oyuncu alımları yapılacaktır. Sosyal alımlarımız bulunmaktadır. Basvuru ıcın /w
 	"guild.*aranıyor", --Guildimize beraber lvl kasmak isteyen arkadaşlar aranıyor. 1lvl %50 deyiz......
 	--* [25] 5/8 HC  Progressimize Düzenli katilim saglayacan Heroic deneyimi olan Mage,Lock aramaktadir.Social alimi da gerceklestirilmektedir . Detayli bilgi icin /w
@@ -106,6 +109,7 @@ local whispers = {
 	"guild.*recruit.*social", --Hello, were a lvl 2 guild looking to recruit members of all lvl's.We're a social guild looking for members to help us reach lvl 25
 	"new.*social guild.*repair", --Greetings <>! <> is a newly started social guild where you have a possibility to advance into high-end content. We'll soon be providing with guild repairs as well as hosting events! Come, take part of the community! We have 10% XP, REP an
 	"join.*guild.*member", --Hi * , please join our Level 15 guild for for weekly raids & rbgs and %10 extra XP. We do dungeon runs to help our low level members too.
+	"social.*guild.*repair.*join", --Hi, * is a fun, friendly social guild. enjoy the free guild repairs and boosts.. and also our 1st ever perk..  =>=>  [Fast Track] <=<=.. so why dont you join our community??? u wont regret it :)
 
 	"guild.*please come.*bonus", --Our guild have %10 xp %10 Mount Speed and % 100 Spirit speed boost please come and lvl at our guild if you hit from 80 lvl to 85 lvl while in this guild you will get a bonus 1.5 k gold
 	"join.*community.*gbank", --Hello <> Come And Join <> now and be part of a fast growing community we have a Gbank :) we may be lvl 1 but we are aiming high for the sky and thats why we need you
@@ -126,6 +130,7 @@ local whispers = {
 	"guild.*recruit.*repair", --Hi, <*> is a newly formed leveling and questing level 16 guild which is now recruiting more people ! Come on * , give it a shot ! Guild repairs are also available !
 	"hello.*guild.*raid.*join", --Hello there Fancy a guild that doesnt just focus on it's 10 man  team with friendships made and other stuff apart from just raiding? Then this might be the guild for you From a rebuilt transferred guild we offer u the chance to join in on our WoW exp.
 	"guild.*looking.*social", --Hello, * is a newly formed guild transfered from *, with DS experienced leadership. We are currenlty looking for active people to help us level up the guild, and continue our DS progress. Socials are always welcome aswell.
+	"guild.*raid.*le?ve?l.*join", --Hey mate :) <*> is a new PvP Guild! Our main focus will ofc be in MoP! We will also set up Raids, and have a few groups for raiding :) In the beginning we will focus on levling, getting people geared, skilled and exp'ed. Please join if u PvP:
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
