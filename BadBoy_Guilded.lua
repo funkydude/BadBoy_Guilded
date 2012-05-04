@@ -46,6 +46,9 @@ local savedID, result, triggers = 0, nil, {
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
 
+	--Danish
+	"søger.*medlemmer", --* søger flere medlemmer danskere svenskere og nordmæn
+
 	--Finnish
 	"kilta.*etsii", --*, Suomalainen PvE-kilta joka etsii vain pelaajia jotka osaavat liikkua tulesta ja joita kiinnostaisi raidata 10man DS normaalia ja heroiccia jatkossa, tähtäämme parempaan tasoon kuin suurin osa servun suomikilloista! /w jos kysyttävää
 	"etsimme.*pelaajia.*yhteyttä", --<*> lvl 25 Progress DS 1/8 hc. Etsimme hc koitoksiin aktiivisia pelaajia. Erityiseti healerille on tarvetta. Myös 85 lvl sosiaalit on tervetulleita. Ota yhteyttä jos kiinnostuit.
@@ -140,6 +143,7 @@ local whispers = {
 	"recruit.*guild.*join", --Hello *! <*> is now recruiting!Awsome guild!, join now!
 	"guild.*le?ve?l.*raid.*player", --Guild * Level 9. HI *. We are a good guild and there you can do everything. RAID ARENA RBG BG DG achiv. You say us wht you want to do and we try to organise it! we are not too much so you will be in a great family of good player
 	"le?ve?l.*bonus.*join.*guild", --Hi * ! We've got 2 guild bank tabs filled with FREE items and enchants to help You leveling aswell as bonus 5% exp from Fast Track perk. Join our guild and lvl up faster!
+	"le?ve?l.*guild.*repair", --* LvL 16 Guild! Be active and mature! 100g FREE Guild repair everyday! 
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
