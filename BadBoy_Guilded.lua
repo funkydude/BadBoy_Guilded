@@ -86,7 +86,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,
 	if id == savedID then return result else savedID = id end --Incase a message is sent more than once
 	if chanid == 0 or chanid == 25 then result = nil return end --Don't scan custom channels or GuildRecruitment channel
 	if not CanComplainChat(id) or UnitIsInMyGuild(player) then result = nil return end --Don't filter ourself/friends
-	msg = (msg):lower() --Lower all text, remove capitals
+	msg = msg:lower() --Lower all text, remove capitals
 	for i = 1, #triggers do
 		if strfind(msg, triggers[i]) then --Found a match
 			result = true
@@ -146,14 +146,19 @@ local whispers = {
 	"le?ve?l.*guild.*repair", --* LvL 16 Guild! Be active and mature! 100g FREE Guild repair everyday! 
 }
 
+local tbl = {}
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
-	if not BADBOY_GWHISPERS or not CanComplainChat(player) or UnitIsInMyGuild(player) then return end --Don't filter ourself/friends
-	msg = (msg):lower() --Lower all text, remove capitals
+	if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) then return end
+	msg = msg:lower() --Lower all text, remove capitals
 	for i = 1, #whispers do
 		if strfind(msg, whispers[i]) then --Found a match
 			if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
 			return true --found a trigger, filter
 		end
 	end
+end)
+
+ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER_INFORM", function(_,_,_,player)
+	if not tbl[player] then tbl[player] = true end
 end)
 

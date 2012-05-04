@@ -1,12 +1,13 @@
 ## Interface: 40300
-## Version: 2.20
+## Version: 2.5
 ## Title: BadBoy_Guilded
 ## Notes: Removes guild advertising from public channels.
 ## Notes-frFR: Enlève les publicités des guildes des canaux publiques.
 ## Notes-deDE: Entferne GildenWerbung in Öffentlichen Channels.
 ## Author: Funkydude
 ## Dependencies: BadBoy
-## SavedVariables: BADBOY_GWHISPERS
+## OptionalDeps: BadBoy_Levels
+## SavedVariablesPerCharacter: BADBOY_GWHISPER
 ## X-Category: Chat/Communication
 ## X-License: All Rights Reserved
 

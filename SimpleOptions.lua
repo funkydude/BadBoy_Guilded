@@ -8,10 +8,10 @@ do
 		local tick = frame:GetChecked()
 		if tick then
 			PlaySound("igMainMenuOptionCheckBoxOn")
-			BADBOY_GWHISPERS = true
+			BADBOY_GWHISPER = true
 		else
 			PlaySound("igMainMenuOptionCheckBoxOff")
-			BADBOY_GWHISPERS = nil
+			BADBOY_GWHISPER = nil
 		end
 	end)
 
@@ -54,7 +54,7 @@ do
 	guildedInvitesText:SetText(BLOCK_GUILD_INVITES)
 
 	BadBoyConfig:HookScript("OnShow", function()
-		BadBoyGuildedWhispersButton:SetChecked(BADBOY_GWHISPERS)
+		BadBoyGuildedWhispersButton:SetChecked(BADBOY_GWHISPER)
 		BadBoyguildedInvitesButton:SetChecked(InterfaceOptionsControlsPanelBlockGuildInvites:GetValue())
 	end)
 end
