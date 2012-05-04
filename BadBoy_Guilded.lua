@@ -34,6 +34,9 @@ local savedID, result, triggers = 0, nil, {
 	"progress.*raid.*interest", --<*>  is 1/8 DS 10 HC, working @ progress in DS Heroic. We look for ppl who love progress like a team. Atm we need all clases. We raid Wednesday and Thursday (alt run). /w me if u are interested to progress.
 	"social.*member.*inv", --* Focus on PvP, we are social and friendly. We do lots of random BG's 2gether, Arenas and also RBG! We got TS server. We give you FREE Gems! we care about our members. For more info or an [invite] just /w me. Req is lvl 85. 
 	"le?ve?l.*looking.*social", --<*> [lvl 25] is currently expanding!. looking for more social and enthusiastic PvP'ers. Hpala/Rshamans pref /w me for a short chat! only taking 2k+ arena or RBG. the exp must be on current char.
+	"le?ve?l.*looking.*experience", -- * (lvl25) Is looking for, 1 exceptional holy paladin. And a resto druid/shaman with a dps offspec. we're raiding 5 days a week. /w me with your experience and interests. You need to be a cut above the rest.
+	"join.*social.*guild", --Lowbies of Azeroth, join <*>> (level 23) and level together in this social & fun guild. ! Earn gold by doing guild challenges! 
+	"join.*le?ve?l.*guild", --Join our level 19 PVP guild! And get paid 30g per arena win! while playin' with guildies!
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
