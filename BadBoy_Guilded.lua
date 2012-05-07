@@ -165,6 +165,6 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
 end)
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER_INFORM", function(_,_,_,player)
-	if not tbl[player] then tbl[player] = true end
+	if BADBOY_GWHISPER and not tbl[player] then tbl[player] = true end
 end)
 
