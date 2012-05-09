@@ -22,7 +22,7 @@ local savedID, result, triggers = 0, nil, {
 	"guild.*welcome", -->< is a new dungeon/raid guild we are setting up our raid/HC group. ofc every lvl is welcome in our guild but we preff 60-85 all classes/races. You also have to be an active player
 	"guild.*looking", -->< raiding guild. (5/12) we are looking for exp/dedicated players for our 10mans. slowly moving into 25mans. must have a ilvl 350+ (need 1 tank, 2 ranged(pref. boomkin), 1 melee(pref enhance)
 	"lookk?ing.*welcome", --<> is a lvl 11 recuiting for their 10man group, lookking for people with experiance with a min 348 ilvl (2ranged dps ) all other players are welcome we are 6/12 with cataclysm bosses - raid times are mon - thurs 8:00pm to 12:00am (midnight) Pst
-	"raid.*%.com", --<> <lvl 23> has openings in its' 25 man raid group, Raids are Sunday - Thurs 9-12. see xyz.com for info
+	"le?ve?l.*open.*raid", --<> <lvl 23> has openings in its' 25 man raid group, Raids are Sunday - Thurs 9-12. see xyz.com for info
 	"looking.*raidtimes.*/w", --Knixxs Order of the Darkside -  Lvl 25. We are on the lookout for Tanks and Healers for our raidteam. We are currently 5/12 and looking to progress further. Our raidtimes are: Wed, Thurs and Sunday, 21:15 realm time. For more info /w me. Thanks :)
 	"social.*leveling.*looking", --<> <level 6> Is a social leveling looking for people to fill out raiding spots. Currently in need of dps and healers. Starting firelands trash runs & eventually boss runs.
 	"looking.*player.*social", --<> (6) Looking for more players to set our first raiding team and also our first RBG team! We are looking for social players that is experienced of either Raiding or PvP. Whisper me if you want more information about us and our plans!
@@ -38,6 +38,8 @@ local savedID, result, triggers = 0, nil, {
 	"join.*social.*guild", --Lowbies of Azeroth, join <*>> (level 23) and level together in this social & fun guild. ! Earn gold by doing guild challenges! 
 	"join.*le?ve?l.*guild", --Join our level 19 PVP guild! And get paid 30g per arena win! while playin' with guildies!
 	"guild.*casual.*repair", --* (level 25 guild) is LF more pvers to complete our raiding teams! We are a casual raiding guild. (Some HC) We have guild funded repairs,  our own vent, active old raid achi runs, etc. We have many achievements unlocked. 
+	"raid.*social.*progress", --Are you a dedicated raider that wants in a regular team and like to socialise? Are you that player that is trustworthy and shows up at the raid? Then your the guy we want. ATM all classes are accepted, progress: 8/8, 2/8 hc ds. Whisper me for more info.
+	"looking.*active.*join", --<*> [3] Is looking for active players to join the ranks and start raiding. Looking for all roles for Dragon Soul /w For [Inv]
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
@@ -112,6 +114,7 @@ local whispers = {
 	"wanna.*join.*guild.*le?ve?l", --Heya wanna join Guild * lvl 25 for faster lvling? :)
 	"hello.*intere?sted.*join.*guild", --Hello,  intersted in joining a guild? :)
 	"would.*join.*please.*accept", --Would you like to join [[*]] please press Accept!o _O
+	"interest.*join.*le?ve?l", --Hey bro are you interested in joining *? We just reformed currently leveling and setting up going to be raiding once we're ready!
 
 	"looking for.*members.*join", --Hello, <> is looking for more members to join our ranks, we are both recruiting socials/levelers and raiders for our raiding team! We would like you, <>, to join our ranks.
 	"raid.*guild.*looking for", --Social casual raiding Guild 8/8 <> is looking for raiders for our DS run, we are in need of 3 healers. perfer with os dps. our main raidday is wednesday...
@@ -150,11 +153,13 @@ local whispers = {
 	"le?ve?l.*guild.*repair", --* LvL 16 Guild! Be active and mature! 100g FREE Guild repair everyday! 
 	"guild.*social.*welcome", --Hello :) * is Level 25 guild : %10 more exp, %10 Mount speed, Mass Summon, Mass Resurrection, Bountiful Bags (proc on your professions!!),  Raiding, Leveling and social guild. All welcome and Feel free to [invite] everyone :)
 	"le?ve?l.*recruit.*guild", --<*> (level 12) is now recruiting. Do you just love PvP? Then this is the guild for you! We will be doing World PvP/ RBG/ arenas/ premades. And much more! We will have weekly events aswell.
+	"join.*le?ve?l.*guild", --Hello *! Wanna join *? we are lvl 18!! Its  a leveling guild. 10% more xp
+	"extra.*durability.*join", --Hi *, want to get an extra 10% xp? And other bonuses like profession points and durability free? With over 550 members, you should join us!
 }
 
 local tbl = {}
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
-	if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) then return end
+	if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) or UnitInRaid(player) or UnitInParty(player) then return end
 	msg = msg:lower() --Lower all text, remove capitals
 	for i = 1, #whispers do
 		if strfind(msg, whispers[i]) then --Found a match
