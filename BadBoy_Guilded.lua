@@ -155,6 +155,7 @@ local whispers = {
 	"le?ve?l.*recruit.*guild", --<*> (level 12) is now recruiting. Do you just love PvP? Then this is the guild for you! We will be doing World PvP/ RBG/ arenas/ premades. And much more! We will have weekly events aswell.
 	"join.*le?ve?l.*guild", --Hello *! Wanna join *? we are lvl 18!! Its  a leveling guild. 10% more xp
 	"extra.*durability.*join", --Hi *, want to get an extra 10% xp? And other bonuses like profession points and durability free? With over 550 members, you should join us!
+	"guild.*join.*le?ve?l", --Hi my friend. Me and some others has just started a new guild and we would like if you join.  we are a pvp guild and we do doungens too. And our level 85 people would love you help you level up.
 }
 
 local tbl = {}
