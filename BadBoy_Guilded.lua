@@ -40,6 +40,7 @@ local savedID, result, triggers = 0, nil, {
 	"guild.*casual.*repair", --* (level 25 guild) is LF more pvers to complete our raiding teams! We are a casual raiding guild. (Some HC) We have guild funded repairs,  our own vent, active old raid achi runs, etc. We have many achievements unlocked. 
 	"raid.*social.*progress", --Are you a dedicated raider that wants in a regular team and like to socialise? Are you that player that is trustworthy and shows up at the raid? Then your the guy we want. ATM all classes are accepted, progress: 8/8, 2/8 hc ds. Whisper me for more info.
 	"looking.*active.*join", --<*> [3] Is looking for active players to join the ranks and start raiding. Looking for all roles for Dragon Soul /w For [Inv]
+	"social.*guild.*invite", --<*> (Lvl: 20) Social Raiding guild, raid 2 nights a week. Currently 8/8 10N 1/8 10HC. Invites are open for all.
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
@@ -60,6 +61,7 @@ local savedID, result, triggers = 0, nil, {
 	"etsimme.*pelaajia.*yhteyttä", --<*> lvl 25 Progress DS 1/8 hc. Etsimme hc koitoksiin aktiivisia pelaajia. Erityiseti healerille on tarvetta. Myös 85 lvl sosiaalit on tervetulleita. Ota yhteyttä jos kiinnostuit.
 	"etsii.*kilta", --<*> Etsii suomalaisia pelaajia joukkoonsa. Kilta on casual PvE/PvP/social. Kaikki ovat tervetulleita! Nyt haetaan pelaajia aloittamaan DS10 progress.
 	"etsii.*ihmisiä.*progress", --[*] Etsii suomalaisia, raidaamisesta kiinnostuneita motivoituneita ihmisiä liittymään meidän HC Main-raid grouppiin. Nykyinen progress 5/8 Hc ja eteenpäin mennään.
+	"kilta.*tarvetta olisi", --<*> On juuri tehty Suomalainen PvP Kilta rennolla meiningillä. Aloitamme rbg:een kunhan saamme kelvollisen setupin. Tarvetta olisi Fc:lle (Warru), Hiiluja (Pally, Shaman, Priest) ja depsuja melkein kaikki classit. Whisperillä lisää infoa.
 
 	--German
 	"sucht.*willkommen", --<> sucht für ihre 10er Raids Mi + Fr 19.30-23.00 (10/12) noch tatkräftige Unterstützung! Hirn, flinke Finger, wache Augen und ein sehr! gutes Klassenverständnis sind uns in jeder Klasse willkommen. [www.xyz.de]
@@ -156,6 +158,8 @@ local whispers = {
 	"join.*le?ve?l.*guild", --Hello *! Wanna join *? we are lvl 18!! Its  a leveling guild. 10% more xp
 	"extra.*durability.*join", --Hi *, want to get an extra 10% xp? And other bonuses like profession points and durability free? With over 550 members, you should join us!
 	"guild.*join.*le?ve?l", --Hi my friend. Me and some others has just started a new guild and we would like if you join.  we are a pvp guild and we do doungens too. And our level 85 people would love you help you level up.
+	"partof.*guild.*invite", --*? Well, hopefully not. But you can be part of an epic guild called * if you like. I'll shoot you an [invite] chief, you decide.
+	"join.*repair.*le?ve?l", --Would you like to join *? Free repairs to all, Where tking all lvl's
 }
 
 local tbl = {}
