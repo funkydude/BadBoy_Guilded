@@ -160,6 +160,7 @@ local whispers = {
 	"guild.*join.*le?ve?l", --Hi my friend. Me and some others has just started a new guild and we would like if you join.  we are a pvp guild and we do doungens too. And our level 85 people would love you help you level up.
 	"partof.*guild.*invite", --*? Well, hopefully not. But you can be part of an epic guild called * if you like. I'll shoot you an [invite] chief, you decide.
 	"join.*repair.*le?ve?l", --Would you like to join *? Free repairs to all, Where tking all lvl's
+	"guild.*invite.*recruit", --Hey, I see that you are not in a Guild, So I thought I could [invite] you to my guild "*" :) You see we are recruiting players like is lvling, gearing and such. why not join and get several Gold Rewards on your way to the top :)?
 }
 
 local tbl = {}
