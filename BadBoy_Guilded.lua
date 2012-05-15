@@ -164,6 +164,8 @@ local whispers = {
 	"guild.*invite.*recruit", --Hey, I see that you are not in a Guild, So I thought I could [invite] you to my guild "*" :) You see we are recruiting players like is lvling, gearing and such. why not join and get several Gold Rewards on your way to the top :)?
 	"join.*le?ve?l.*repair", --Hello *! Would you like to join * level (24)? Enjoy perks such as 10% extra EXP/Honor and free repairs! We run arenas, bg's, dungeons and more. Don't hesitate to join us today! 
 	"guild.*players.*join", --Hey!>>*<< Is a Raiding/PvP/Leveling guild. And we want more players to come join for our RBG's And DS. We are Very Friendly. We will use Ventrilo for our RBG's And DS. We will go one with DS HC soon.
+	"guild.*players.*looking", --<*> is a PvP Guild formed by two super active players from other realm. We're looking for more ppl to play Arenas, Heroics and Bg's with!
+	"join.*guild.*[ei]nviron?ment", --Hello , join to * and enjoy the adventures of WoW.We r making this guild to get prepared for cataclysm.We r offering a pleasant inviroment and a lot of fun.We will do bgs and dungeons to help u out. Join!
 }
 
 local tbl = {}
