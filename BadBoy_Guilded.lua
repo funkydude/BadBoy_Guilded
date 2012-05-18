@@ -170,6 +170,8 @@ local whispers = {
 	"join.*guild.*[ei]nviron?ment", --Hello , join to * and enjoy the adventures of WoW.We r making this guild to get prepared for cataclysm.We r offering a pleasant inviroment and a lot of fun.We will do bgs and dungeons to help u out. Join!
 	"looking.*people.*guild", --<*> - We are looking for people who have a big interrest in PvP, the guild offers arena capping, rbg, and world pvping. You don't have to be Danish! We are lf Officers. /w me for more info!
 	"recruit.*join.*guild", --YOLO Gaming Recruiting Peeps for Arenas, Rbgs, And Raiding.. join now for guild perks!
+	"guild.*bonus.*perk", --* is a lvl 7 guild and are here to have fun :) We also got 10% xp bonus for levlers and other nice perks. 
+	"need.*join.*repair", --Mighty soldier we need your steel and magic in the defence of this world, join with us in <*> and fight our enimies and gain their riches. We will assist you with your armor repair, items and any other things you require while you slay your enemies
 }
 
 local tbl = {}
