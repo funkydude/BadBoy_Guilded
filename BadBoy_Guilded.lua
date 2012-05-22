@@ -172,6 +172,8 @@ local whispers = {
 	"recruit.*join.*guild", --YOLO Gaming Recruiting Peeps for Arenas, Rbgs, And Raiding.. join now for guild perks!
 	"guild.*bonus.*perk", --* is a lvl 7 guild and are here to have fun :) We also got 10% xp bonus for levlers and other nice perks. 
 	"need.*join.*repair", --Mighty soldier we need your steel and magic in the defence of this world, join with us in <*> and fight our enimies and gain their riches. We will assist you with your armor repair, items and any other things you require while you slay your enemies
+	"repair.*join.*guild", --Would you like to get free repairs and 10% more exp?! Then join *! You're very welcome to our guild, *!
+	"le?ve?l.*looking.*players", --<*>lvl 1  looking for starting players, we helping get new gear, helping in dungeons and raids and giving gold. Looking players who need  achievements and who want go raid to get achievements
 }
 
 local tbl = {}
