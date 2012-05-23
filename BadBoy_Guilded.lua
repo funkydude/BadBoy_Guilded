@@ -42,6 +42,7 @@ local savedID, result, triggers = 0, nil, {
 	"looking.*active.*join", --<*> [3] Is looking for active players to join the ranks and start raiding. Looking for all roles for Dragon Soul /w For [Inv]
 	"social.*guild.*invite", --<*> (Lvl: 20) Social Raiding guild, raid 2 nights a week. Currently 8/8 10N 1/8 10HC. Invites are open for all.
 	"searching.*people.*progress", --<*> Is searching for more people for our 10 man raiding team! we are full on healers and need some imba dpses and 1 tank to continue our progress right now we are 8/8 normal /w me!!
+	"le?ve?l.*looking.*class", --<*>lvl 25 5/8hc is looking for 1tank  and 1rdps(prefsp or lock ) for our DS 10man hc raid group  we raid at sun-mon-wed ftom19:00-23:00 be at least 390ilvl and know your class 100% then /w me so we can speak
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
@@ -174,6 +175,8 @@ local whispers = {
 	"need.*join.*repair", --Mighty soldier we need your steel and magic in the defence of this world, join with us in <*> and fight our enimies and gain their riches. We will assist you with your armor repair, items and any other things you require while you slay your enemies
 	"repair.*join.*guild", --Would you like to get free repairs and 10% more exp?! Then join *! You're very welcome to our guild, *!
 	"le?ve?l.*looking.*players", --<*>lvl 1  looking for starting players, we helping get new gear, helping in dungeons and raids and giving gold. Looking players who need  achievements and who want go raid to get achievements
+	"le?ve?l.*repair.*join", --* LVL 22. We do have 50g repair everyday for everyone and we're trying to be helpfull to those few members who actually joins.
+	"join.*boost.*repair", --Join * - have a chance on winning 10 000g/week, FREE Boosts and Repairs CMON & Support the WoW Community!
 }
 
 local tbl = {}
