@@ -90,6 +90,9 @@ local savedID, result, triggers = 0, nil, {
 	"guild.*raid.*oyuncu", --* guildi kurulmuş olan 25 man kadrosunu güçlendiriyor. Raidlere istekli katılacak, saygılı ve paylaşımı seven türk oyuncuları bekliyoruz. 
 	"başvuru.*www", --Hurish Başvuru için lütfen "www.*.com" adresine giriş yaparak formu doldurunuz.
 
+	--Croatian
+	"le?ve?l.*primamo.*igrace", -- * (lvl25) za sve one koji ovo razumeju. Primamo sve zainteresovane igrace 85lvl koji igru pre svega shvataju kao zabavu a ne obavezu. Za vise informacija/w
+
 	--Hungarian
 	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
 }
@@ -115,6 +118,7 @@ local whispers = {
 	"would.*join our.*guild", --Would you like to join our guild ? if you join We will pay your all repair costrs...
 	"would.*join a.*guild", --Would You Like To Join a New Guild ? Help us Grow. That Will Give You Free Repair When You Reach Lvl 5! wen you reach 85 u will Get 2000g
 	"would.*join.*social.*guild", --Hello <>,how are you? would you like to join <> a newly created socialplayer guild!
+	"would.*join.*team.*members", --Hey you! Would you like to join *? We will make a core raiding team when we got the ppl for it. If we get many members we can also make more than 1 raiding team, and maybe when we have enough we could make it a 25 man raid.
 	"want.*join.*social.*guild", --hey m8 u want to join in 14 level social guild with 10% more xp from quest and 30 gold every day free repair??
 	"invite.*social.*guild.*join", --Hello *! You have been invited to * a newly founded social guild, hope you join! Cant wait to see you!:)
 	"wanna.*join.*guild.*le?ve?l", --Heya wanna join Guild * lvl 25 for faster lvling? :)
