@@ -181,6 +181,7 @@ local whispers = {
 	"le?ve?l.*looking.*players", --<*>lvl 1  looking for starting players, we helping get new gear, helping in dungeons and raids and giving gold. Looking players who need  achievements and who want go raid to get achievements
 	"le?ve?l.*repair.*join", --* LVL 22. We do have 50g repair everyday for everyone and we're trying to be helpfull to those few members who actually joins.
 	"join.*boost.*repair", --Join * - have a chance on winning 10 000g/week, FREE Boosts and Repairs CMON & Support the WoW Community!
+	"looking.*social.*members", --<*> Is looking for more social members to chat and play bgs, dungeons and stuff with us!
 }
 
 local tbl = {}
