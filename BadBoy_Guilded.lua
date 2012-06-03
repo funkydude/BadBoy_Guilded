@@ -183,6 +183,7 @@ local whispers = {
 	"join.*boost.*repair", --Join * - have a chance on winning 10 000g/week, FREE Boosts and Repairs CMON & Support the WoW Community!
 	"looking.*social.*members", --<*> Is looking for more social members to chat and play bgs, dungeons and stuff with us!
 	"looking.*member.*le?ve?l", --<<*>> looking member who need help with level and gear, we helping how we can, with gold level up and gear
+	"guild.*looking.*people", --Hello New GUild * is looking for new people to join are core DS group and rbg group /w for inv.
 }
 
 local tbl = {}
