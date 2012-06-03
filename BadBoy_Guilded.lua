@@ -1,6 +1,6 @@
 
 local strfind = string.find
-local savedID, result, triggers = 0, nil, {
+local prevLineId, result, triggers = 0, nil, {
 	"wowstead",
 	"guildlaunch",
 	"enjin",
@@ -97,19 +97,22 @@ local savedID, result, triggers = 0, nil, {
 	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
 }
 
-ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanid,_,_,_,id)
-	if id == savedID then return result else savedID = id end --Incase a message is sent more than once
-	if chanid == 0 or chanid == 25 then result = nil return end --Don't scan custom channels or GuildRecruitment channel
-	if not CanComplainChat(id) or UnitIsInMyGuild(player) then result = nil return end --Don't filter ourself/friends
-	msg = msg:lower() --Lower all text, remove capitals
-	for i = 1, #triggers do
-		if strfind(msg, triggers[i]) then --Found a match
-			result = true
-			if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
-			return true --found a trigger, filter
+ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanId,_,_,_,lineId)
+	if lineId == prevLineId then
+		return result
+	else
+		prevLineId, result = lineId, nil
+		if chanId == 0 or chanId == 25 then return end --Don't scan custom channels or GuildRecruitment channel
+		if not CanComplainChat(lineId) or UnitIsInMyGuild(player) then return end --Don't filter ourself/friends
+		msg = msg:lower() --Lower all text, remove capitals
+		for i = 1, #triggers do
+			if strfind(msg, triggers[i]) then --Found a match
+				if BadBoyLog then BadBoyLog("Guilded", event, player, msg) end
+				result = true
+				return true --found a trigger, filter
+			end
 		end
 	end
-	result = nil
 end)
 
 
@@ -192,7 +195,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
 	msg = msg:lower() --Lower all text, remove capitals
 	for i = 1, #whispers do
 		if strfind(msg, whispers[i]) then --Found a match
-			if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
+			--if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
 			return true --found a trigger, filter
 		end
 	end
