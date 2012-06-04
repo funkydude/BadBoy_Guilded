@@ -5,7 +5,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guildlaunch",
 	"enjin",
 	"re[cq]rui?t",
-	"^wtbguild$",
+	"^wtbguild",
 	"^wtb %d+%+? level guild$",
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
 	"www.*apply", --pls go to www.*.com to apply or wisp me for extra info.
