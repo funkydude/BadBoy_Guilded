@@ -191,14 +191,20 @@ local whispers = {
 	"guild.*looking.*people", --Hello New GUild * is looking for new people to join are core DS group and rbg group /w for inv.
 }
 
-local tbl = {}
-ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player)
-	if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) or UnitInRaid(player) or UnitInParty(player) then return end
-	msg = msg:lower() --Lower all text, remove capitals
-	for i = 1, #whispers do
-		if strfind(msg, whispers[i]) then --Found a match
-			--if BadBoyLogger then BadBoyLogger("Guilded", event, player, msg) end
-			return true --found a trigger, filter
+local tbl, whispPrevLineId, whispResult = {}, 0, nil
+ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,_,_,_,_,_,_,_,_,lineId)
+	if lineId == whispPrevLineId then
+		return whispResult
+	else
+		whispPrevLineId, whispResult = lineId, nil
+		if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) or UnitInRaid(player) or UnitInParty(player) then return end
+		msg = msg:lower() --Lower all text, remove capitals
+		for i = 1, #whispers do
+			if strfind(msg, whispers[i]) then --Found a match
+				if BadBoyLog then BadBoyLog("Guilded", event, player, msg) end
+				whispResult = true
+				return true --found a trigger, filter
+			end
 		end
 	end
 end)
