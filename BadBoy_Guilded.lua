@@ -192,6 +192,7 @@ local whispers = {
 	"looking.*member.*le?ve?l", --<<*>> looking member who need help with level and gear, we helping how we can, with gold level up and gear
 	"guild.*looking.*people", --Hello New GUild * is looking for new people to join are core DS group and rbg group /w for inv.
 	"new.*guild.*looking", --<*> is a new formed Pve,Pvp guild currently looking for all classes for our raid team/rbg team. We are gonna do Hc's also allot of dungeons and arena's. For more info or [inv] w/me.
+	"recruit.*social.*player", --<*> Level 25 Recruiting for Dragon Soul 10 20:00 – 23:00 ST Mon, Tue, Thur / Tank: All Welcome / Healer: All Welcome / DPS: All Welcome. Also social players are welcome.
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
