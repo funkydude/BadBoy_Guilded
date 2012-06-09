@@ -199,12 +199,12 @@ local whispers = {
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
-ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,_,_,_,_,_,_,_,_,lineId)
+ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,_,_,_,flag,_,_,_,_,lineId)
 	if lineId == whispPrevLineId then
 		return whispResult
 	else
 		whispPrevLineId, whispResult = lineId, nil
-		if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) or UnitInRaid(player) or UnitInParty(player) then return end
+		if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) or UnitInRaid(player) or UnitInParty(player) or flag == "GM" or flag == "DEV" then return end
 		msg = msg:lower() --Lower all text, remove capitals
 		for i = 1, #whispers do
 			if strfind(msg, whispers[i]) then --Found a match
