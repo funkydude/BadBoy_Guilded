@@ -98,6 +98,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"aran?maktadır.*progres", --*  - * yeni transfer olmustur ve suanki tier ve MOP icin kadrosuna classina hakim oyuncular aramaktadır ,Suanki 1/8 HC progressimiz devam ettirmek istiyoruz oncelikli Tank ve Healer alimi vardir.
 	"guild.*raid.*oyuncu", --* guildi kurulmuş olan 25 man kadrosunu güçlendiriyor. Raidlere istekli katılacak, saygılı ve paylaşımı seven türk oyuncuları bekliyoruz. 
 	"başvuru.*www", --Hurish Başvuru için lütfen "www.*.com" adresine giriş yaparak formu doldurunuz.
+	"aranmaktadır.*bilgi.*/w", --* (7/8 Hc) Hc Madness ve MoP icin Off-tank(warrior-paladin) aranmaktadır. Daha fazla bilgi icin /w
 
 	--Croatian
 	"le?ve?l.*primamo.*igrace", -- * (lvl25) za sve one koji ovo razumeju. Primamo sve zainteresovane igrace 85lvl koji igru pre svega shvataju kao zabavu a ne obavezu. Za vise informacija/w
@@ -199,6 +200,7 @@ local whispers = {
 	"new.*guild.*looking", --<*> is a new formed Pve,Pvp guild currently looking for all classes for our raid team/rbg team. We are gonna do Hc's also allot of dungeons and arena's. For more info or [inv] w/me.
 	"recruit.*social.*player", --<*> Level 25 Recruiting for Dragon Soul 10 20:00 – 23:00 ST Mon, Tue, Thur / Tank: All Welcome / Healer: All Welcome / DPS: All Welcome. Also social players are welcome.
 	"guild.*le?ve?l.*repair", --<*> RBG Guild for 1.7k+ XP'd PvP'ers!Looking for levelers, free repairs,help and advice! [:
+	"guild.*le?ve?l.*join", --*, Newly formed guild rapidly leveling Join Us Now!
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
