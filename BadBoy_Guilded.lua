@@ -50,6 +50,9 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking.*progress.*info", --<*> is seeking a Tank for our DS10 Runs. Bring ilvl 395+. We have 4/8 HC. Looking to progress to 5/8 HC asap.  Raid days are Wed / Fri 20:00 - 23:00. /w for more info
 	"player.*clear.*info", --<*> LF PVE Player  We Cleared DS 10 Man and We need  1 Healer (Druid or Paladin) 2 Spot For RDPS Warlock and Boomkin  /w me for more info 
 
+	--Dutch
+	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
+
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
 	"guild.*söker", -- *  är ett svenskt  LvL25  guild som nu söker nya members. Vi kör Dragon Soul 10-manna. Vi söker PvE till Raid, PvP:are till RBG:s och även sociala spelare som vill ha ett bra ställe att hänga på :)
