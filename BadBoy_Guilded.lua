@@ -8,6 +8,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"^wtb guild",
 	"^wtb %d+%+? guild",
 	"^wtb %d+%+? level guild$",
+	"^wtb a guild", --WTB a guild around lvl 15, make me an offer!
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
 	"www.*apply", --pls go to www.*.com to apply or wisp me for extra info.
 	"looking.*members", -- <<>> is a social levelling looking for all members no lvl requirement, Once we have more members were looking to do Raids and PvP premades, /w if you would like to join please or  /w me for info.
@@ -201,6 +202,9 @@ local whispers = {
 	"recruit.*social.*player", --<*> Level 25 Recruiting for Dragon Soul 10 20:00 – 23:00 ST Mon, Tue, Thur / Tank: All Welcome / Healer: All Welcome / DPS: All Welcome. Also social players are welcome.
 	"guild.*le?ve?l.*repair", --<*> RBG Guild for 1.7k+ XP'd PvP'ers!Looking for levelers, free repairs,help and advice! [:
 	"guild.*le?ve?l.*join", --*, Newly formed guild rapidly leveling Join Us Now!
+	"join.*rbg.*repair", --Join for arena partners and RBGs. Free repairs to come!
+	"le?ve?l.*guild.*inte?rest", --Hello. I want to extend a invitation to you for a  new level 15 PvE guild. We just started this week and we are 3/8 Heroic in the Dragon Soul. If you are 385+ and know Dragon Soul then wisper me back if you are intrested in a guild spot and possibly core.
+	"guild.*join.*recruit", --If you are already in a guild then you are still welcome to join but just know this message is automatic and it we did not check if you were guild. We are just recruiting your class.
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
