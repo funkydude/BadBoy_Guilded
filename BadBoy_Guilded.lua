@@ -205,6 +205,7 @@ local whispers = {
 	"join.*rbg.*repair", --Join for arena partners and RBGs. Free repairs to come!
 	"le?ve?l.*guild.*inte?rest", --Hello. I want to extend a invitation to you for a  new level 15 PvE guild. We just started this week and we are 3/8 Heroic in the Dragon Soul. If you are 385+ and know Dragon Soul then wisper me back if you are intrested in a guild spot and possibly core.
 	"guild.*join.*recruit", --If you are already in a guild then you are still welcome to join but just know this message is automatic and it we did not check if you were guild. We are just recruiting your class.
+	"guild.*members.*join", --Pvp/pve guild. over 300 active members accept and join us today!
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
