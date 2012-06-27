@@ -208,6 +208,7 @@ local whispers = {
 	"guild.*join.*recruit", --If you are already in a guild then you are still welcome to join but just know this message is automatic and it we did not check if you were guild. We are just recruiting your class.
 	"guild.*members.*join", --Pvp/pve guild. over 300 active members accept and join us today!
 	"new.*guild.*rbg.*accept", --<*> Is a newly formed PvP Guild! We are going to do lots of RBG's and normal BG's together. We dont play serious hardcore RBGs, we do it for fun! :) We will record YouTube vids of our events and BG's! Press Accept and become a PvPer TODAY!(:
+	"join.*social.*perk", --Come and meet friendly ppl, while lvling up new chars, explore new areas and have a great time! Would you like to join us for some social fun? :) got nice perks :)
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
