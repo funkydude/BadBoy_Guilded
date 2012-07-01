@@ -50,6 +50,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking.*social.*guild", --LOOKING FOR 25 SOCIAL GUILD ROGUE LVL 85!!
 	"looking.*progress.*info", --<*> is seeking a Tank for our DS10 Runs. Bring ilvl 395+. We have 4/8 HC. Looking to progress to 5/8 HC asap.  Raid days are Wed / Fri 20:00 - 23:00. /w for more info
 	"player.*clear.*info", --<*> LF PVE Player  We Cleared DS 10 Man and We need  1 Healer (Druid or Paladin) 2 Spot For RDPS Warlock and Boomkin  /w me for more info
+	"searching.*raiders.*progress", -- * We are searching for hardcore raiders for HC DS progression, You will need 395+ Ilvl, Achievement (8/8 Normal, Minimum), Microphone and to be above 16+. Searching for Druid (Tank) or a Death Knight (Tank).
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
