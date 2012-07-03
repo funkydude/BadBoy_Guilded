@@ -210,6 +210,8 @@ local whispers = {
 	"guild.*members.*join", --Pvp/pve guild. over 300 active members accept and join us today!
 	"new.*guild.*rbg.*accept", --<*> Is a newly formed PvP Guild! We are going to do lots of RBG's and normal BG's together. We dont play serious hardcore RBGs, we do it for fun! :) We will record YouTube vids of our events and BG's! Press Accept and become a PvPer TODAY!(:
 	"join.*social.*perk", --Come and meet friendly ppl, while lvling up new chars, explore new areas and have a great time! Would you like to join us for some social fun? :) got nice perks :)
+	"join.*guild.*repair", --JOIN OUR GUILD, FREE BANK REPAIRS + 500G to the most active player every week!
+	"looking.*member.*guild", --* is looking for more friendly members! We have everything other guilds have but what makes us unique is our competition system where we hand out thousands of gold each week! We also have a website with irl introductions and pictures etc!
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
