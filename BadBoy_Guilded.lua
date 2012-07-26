@@ -3,6 +3,7 @@ local strfind = string.find
 local prevLineId, result, triggers = 0, nil, {
 	"wowstead",
 	"guildlaunch",
+	"corplaunch",
 	"enjin",
 	"re[cq]rui?t",
 	"^wtb guild",
