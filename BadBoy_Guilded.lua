@@ -213,6 +213,8 @@ local whispers = {
 	"join.*social.*perk", --Come and meet friendly ppl, while lvling up new chars, explore new areas and have a great time! Would you like to join us for some social fun? :) got nice perks :)
 	"join.*guild.*repair", --JOIN OUR GUILD, FREE BANK REPAIRS + 500G to the most active player every week!
 	"looking.*member.*guild", --* is looking for more friendly members! We have everything other guilds have but what makes us unique is our competition system where we hand out thousands of gold each week! We also have a website with irl introductions and pictures etc!
+	"new.*le?ve?l.*guild.*join", --"<>" We are a new lvl 1 guild and we need you to join the ARMY :D JOIN US NOW!!! We are a nice guild :)
+	"recruit.*guild.*welcome", --Hello! <> is recruiting! I will give everyone doing dungeons with me 100g per run! We will become a Raiding guild, but  right now everyone is welcome!
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
