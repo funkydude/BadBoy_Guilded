@@ -174,7 +174,7 @@ local whispers = {
 	"guild.*looking.*social", --Hello, * is a newly formed guild transfered from *, with DS experienced leadership. We are currenlty looking for active people to help us level up the guild, and continue our DS progress. Socials are always welcome aswell.
 	"guild.*raid.*le?ve?l.*join", --Hey mate :) <*> is a new PvP Guild! Our main focus will ofc be in MoP! We will also set up Raids, and have a few groups for raiding :) In the beginning we will focus on levling, getting people geared, skilled and exp'ed. Please join if u PvP:
 	"guild.*repair.*join", --Hey there!, i noticed your new? ;D. i've just started off a guild with free repairs, and bank tab use, along with perks to come, care to join? :) ... Let me know :)!
-	"recruit.*guild.*join", --Hello *! <*> is now recruiting!Awsome guild!, join now!
+	"re[cq]ruit.*guild.*join", --Hello *! <*> is now recruiting!Awsome guild!, join now!
 	"guild.*le?ve?l.*raid.*player", --Guild * Level 9. HI *. We are a good guild and there you can do everything. RAID ARENA RBG BG DG achiv. You say us wht you want to do and we try to organise it! we are not too much so you will be in a great family of good player
 	"le?ve?l.*bonus.*join.*guild", --Hi * ! We've got 2 guild bank tabs filled with FREE items and enchants to help You leveling aswell as bonus 5% exp from Fast Track perk. Join our guild and lvl up faster!
 	"le?ve?l.*guild.*repair", --* LvL 16 Guild! Be active and mature! 100g FREE Guild repair everyday!
@@ -215,6 +215,9 @@ local whispers = {
 	"looking.*member.*guild", --* is looking for more friendly members! We have everything other guilds have but what makes us unique is our competition system where we hand out thousands of gold each week! We also have a website with irl introductions and pictures etc!
 	"new.*le?ve?l.*guild.*join", --"<>" We are a new lvl 1 guild and we need you to join the ARMY :D JOIN US NOW!!! We are a nice guild :)
 	"recruit.*guild.*welcome", --Hello! <> is recruiting! I will give everyone doing dungeons with me 100g per run! We will become a Raiding guild, but  right now everyone is welcome!
+	"guild.*welcome.*friendly", --LV 25 GuildActive peps Active pvp,questing..ect All LV's welcome friendly Come have fun before MIST!!!
+	"wanna.*join.*repair.*buff", --Hey, wanna join us :) ? Free repairs, 5% exp buff
+	"recruit.*raid.*need", --Hi there! We are recruiting for MoP for main focus will be raiding, we are currently in need of 1 healer and multiple dps for our core group. raid goes from 9pm to ? We have weekly contests for gold and other prizes for the person that gets the most xp 
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
