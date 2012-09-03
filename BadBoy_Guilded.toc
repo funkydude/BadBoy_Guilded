@@ -1,5 +1,5 @@
 ## Interface: 50001
-## Version: 2.77
+## Version: 2.8
 ## Title: BadBoy_Guilded
 ## Notes: Removes guild advertising from public channels.
 ## Notes-frFR: Enlève les publicités des guildes des canaux publiques.
