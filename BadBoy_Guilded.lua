@@ -216,11 +216,14 @@ local whispers = {
 	"recruit.*guild.*welcome", --Hello! <> is recruiting! I will give everyone doing dungeons with me 100g per run! We will become a Raiding guild, but  right now everyone is welcome!
 	"guild.*welcome.*friendly", --LV 25 GuildActive peps Active pvp,questing..ect All LV's welcome friendly Come have fun before MIST!!!
 	"wanna.*join.*repair.*buff", --Hey, wanna join us :) ? Free repairs, 5% exp buff
-	"recruit.*raid.*need", --Hi there! We are recruiting for MoP for main focus will be raiding, we are currently in need of 1 healer and multiple dps for our core group. raid goes from 9pm to ? We have weekly contests for gold and other prizes for the person that gets the most xp 
+	"recruit.*raid.*need", --Hi there! We are recruiting for MoP for main focus will be raiding, we are currently in need of 1 healer and multiple dps for our core group. raid goes from 9pm to ? We have weekly contests for gold and other prizes for the person that gets the most xp
 	"would.*join.*guild.*perk", --Would you like to join this awsome guild of doom? You get all the perks you need to level faster! :)
 	"looking.*perk.*repair", --<*> is looking for more players to fill roster! We can offer you all useful perks & Free repairs!
 	"gameplay.*join.*guild", --Take your gameplay to the next level! Er… actually, take a few steps back. Kick up your feet. Stop the grind and join the coolest laid-back guild in the land! It’s “cool” to call yourself “cool”.
 	"social.*guild.*perk", --<*> is one of the biggest and most active social 25 guild on the realm. We got all perks, all mounts, companions, cauldrons, recipes etc etc. We are now preparing for MoP and we will be doing guilddungeons, raids and much more! :) Welcome!
+	"noticed.*guild.*invite", --Hey i noticed u wernt in a guild and i was wondering if ud like to raid come MoP ill gladly invite you =)
+	"join.*le?ve?l.*recruit", --Join * <level3> recruiting all Going to start PVP AND PVE when MoP Comes OUT JOIN YOU WILL HAVE FUN! :)
+	"le?ve?l.*recruit.*join", --Hello, <*> (level15) is recruiting for MoP! Join us for raiding, pvp, and leveling! Please accept invite!!
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
