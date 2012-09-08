@@ -6,7 +6,6 @@
 ## Notes-deDE: Entfernt Gildenwerbung in öffentlichen Kanälen.
 ## Author: Funkydude
 ## Dependencies: BadBoy
-## OptionalDeps: BadBoy_Levels
 ## SavedVariablesPerCharacter: BADBOY_GWHISPER
 ## X-Category: Chat/Communication
 ## X-License: All Rights Reserved
