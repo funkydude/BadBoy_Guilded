@@ -51,6 +51,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking.*progress.*info", --<*> is seeking a Tank for our DS10 Runs. Bring ilvl 395+. We have 4/8 HC. Looking to progress to 5/8 HC asap.  Raid days are Wed / Fri 20:00 - 23:00. /w for more info
 	"player.*clear.*info", --<*> LF PVE Player  We Cleared DS 10 Man and We need  1 Healer (Druid or Paladin) 2 Spot For RDPS Warlock and Boomkin  /w me for more info
 	"searching.*raiders.*progress", -- * We are searching for hardcore raiders for HC DS progression, You will need 395+ Ilvl, Achievement (8/8 Normal, Minimum), Microphone and to be above 16+. Searching for Druid (Tank) or a Death Knight (Tank).
+	"guild.*seeking.*exp", --REGAIN {skull}25 lvl{skull} 8/8 HC DS raiding guild seeking for raiders/pvpers and socials for MoP. RBG team leaded by 2.4k experienced pvpers.
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -227,6 +228,7 @@ local whispers = {
 	"guild.*fun.*pvp.*raid", --(*) We are a guild that aims to provide a fun experience for everyone that wishes to participate in various guild activites like PVP including Arena and RBG, Raiding / Dungeon, we will be doing everything in Mist of Pandaria.
 	"player.*recruit.*perk", --<*> (13) Looking for more players for MoP based PvE and PvP. Open Recruitment with many perks!
 	"need.*player.*pay.*active", --<*> needs players! I pay 1,000g to the most active member every monday!
+	"social.*guild.*player", --Hello *. * is a social guild that is intended to provide players a good experience of WOW. We look for players who want to do raids normal and heroic, dungeons, levelling out classes, etc. We have with you!!!
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
