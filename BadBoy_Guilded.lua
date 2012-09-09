@@ -224,6 +224,9 @@ local whispers = {
 	"noticed.*guild.*invite", --Hey i noticed u wernt in a guild and i was wondering if ud like to raid come MoP ill gladly invite you =)
 	"join.*le?ve?l.*recruit", --Join * <level3> recruiting all Going to start PVP AND PVE when MoP Comes OUT JOIN YOU WILL HAVE FUN! :)
 	"le?ve?l.*recruit.*join", --Hello, <*> (level15) is recruiting for MoP! Join us for raiding, pvp, and leveling! Please accept invite!!
+	"guild.*fun.*pvp.*raid", --(*) We are a guild that aims to provide a fun experience for everyone that wishes to participate in various guild activites like PVP including Arena and RBG, Raiding / Dungeon, we will be doing everything in Mist of Pandaria.
+	"player.*recruit.*perk", --<*> (13) Looking for more players for MoP based PvE and PvP. Open Recruitment with many perks!
+	"need.*player.*pay.*active", --<*> needs players! I pay 1,000g to the most active member every monday!
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
