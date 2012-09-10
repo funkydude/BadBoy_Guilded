@@ -110,6 +110,7 @@ local prevLineId, result, triggers = 0, nil, {
 	--Hungarian
 	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
 	"guild.*info.*wh?isp", --Hali ! * lvl 25 guild tagfelvételt hirdet minden class számára! Raidek szombaton és vasárnap délután MOP-tól! További info wisp: *
+	"klán.*raid.*karakter", --A * klán (lvl25) felnött vagy felnött gondolkodású embereket keres raidezésre, pvp-re és egyéb szórakozásokra. Nem számít a karakter vagy a felszerelés szintje, csak az igény a könnyed, stresszmentes szórakozásra.
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanId,_,_,_,lineId)
