@@ -52,6 +52,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"player.*clear.*info", --<*> LF PVE Player  We Cleared DS 10 Man and We need  1 Healer (Druid or Paladin) 2 Spot For RDPS Warlock and Boomkin  /w me for more info
 	"searching.*raiders.*progress", -- * We are searching for hardcore raiders for HC DS progression, You will need 395+ Ilvl, Achievement (8/8 Normal, Minimum), Microphone and to be above 16+. Searching for Druid (Tank) or a Death Knight (Tank).
 	"guild.*seeking.*exp", --REGAIN {skull}25 lvl{skull} 8/8 HC DS raiding guild seeking for raiders/pvpers and socials for MoP. RBG team leaded by 2.4k experienced pvpers.
+	"guild.*classes.*members", --* are currently lvl 17 and are rebuilding the guild so were accepting all classes and lvls, we are not interested in what item lvl you have we are interested in social members and want people to enjoy the game,whisp for info :)
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -111,6 +112,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
 	"guild.*info.*wh?isp", --Hali ! * lvl 25 guild tagfelvételt hirdet minden class számára! Raidek szombaton és vasárnap délután MOP-tól! További info wisp: *
 	"klán.*raid.*karakter", --A * klán (lvl25) felnött vagy felnött gondolkodású embereket keres raidezésre, pvp-re és egyéb szórakozásokra. Nem számít a karakter vagy a felszerelés szintje, csak az igény a könnyed, stresszmentes szórakozásra.
+	"klán.*jelentkezését", --* lvl 25-ös klán újra aktív. Aktív játékosok jelentkezését várjuk, akik Pandaria altt is raidelni szeretnénke majd. Infóért írjatok rám nyugodtan.
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanId,_,_,_,lineId)
