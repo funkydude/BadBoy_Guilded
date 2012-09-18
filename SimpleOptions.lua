@@ -37,7 +37,7 @@ do
 	elseif L == "koKR" then
 		guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "ptBR" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		guildedWhispersText:SetText("Remove sussurros de convites de guilda")
 	elseif L == "itIT" then
 		guildedWhispersText:SetText("Remove guild invite whispers")
 	end

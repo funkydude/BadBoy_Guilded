@@ -4,6 +4,7 @@
 ## Notes: Removes guild advertising from public channels.
 ## Notes-frFR: Enlève les publicités des guildes des canaux publiques.
 ## Notes-deDE: Entfernt Gildenwerbung in öffentlichen Kanälen.
+## Notes-ptBR: Remove publicidade de guilda de canais públicos.
 ## Author: Funkydude
 ## Dependencies: BadBoy
 ## SavedVariablesPerCharacter: BADBOY_GWHISPER
