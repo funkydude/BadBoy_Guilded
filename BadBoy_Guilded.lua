@@ -136,6 +136,7 @@ end)
 
 local whispers = {
 	"would.*join my.*guild", --Would you like to join my social raiding guild?.. lv1 but it will grow fast with your help :D and lottery. u can win 50g a week. MORE later!!
+	"wanna.*join my.*guild", --wanna join my guild im not one of those f*gs that spamf*ck the trade but you have to start from somewhere well pst if u want in if u dont idc i only have me and my best friend in it right now and we have only been using it for storage... 
 	"would.*join our.*guild", --Would you like to join our guild ? if you join We will pay your all repair costrs...
 	"would.*join a.*guild", --Would You Like To Join a New Guild ? Help us Grow. That Will Give You Free Repair When You Reach Lvl 5! wen you reach 85 u will Get 2000g
 	"would.*join.*social.*guild", --Hello <>,how are you? would you like to join <> a newly created socialplayer guild!
@@ -233,6 +234,12 @@ local whispers = {
 	"player.*recruit.*perk", --<*> (13) Looking for more players for MoP based PvE and PvP. Open Recruitment with many perks!
 	"need.*player.*pay.*active", --<*> needs players! I pay 1,000g to the most active member every monday!
 	"social.*guild.*player", --Hello *. * is a social guild that is intended to provide players a good experience of WOW. We look for players who want to do raids normal and heroic, dungeons, levelling out classes, etc. We have with you!!!
+	"recruit.*casual.*progres", --<*> <1> Is Now Recruiting. Formed by an 8/8HM experienced GM. <*> aims to become one of the major casual hubs for coming MoP, while at the same time, allowing for progression in a HM environemnt. Aus weeknight raiding (Late Night US).
+	"open.*repair.*join", --<*> We're open for everyone to come chill while playing. Free Repairs! No requirements or expectations. Press Accept to Join
+	"recruit.*bonus.*exp", --<*> of * recruiting! Earn 5% BONUS experience with *!
+	"le?ve?l.*guild.*perk", --Enjoy level 25 guild perks without responsibility.
+	"le?ve?l.*guild.*info", --<*> is just form and we pay you to lvl! 10g for lvl10 and 20g for lvl 20 and so on! 300g for lvl 85! (must lvl while in guild) Pst for more info and invite! (looking for some good ppl to be officers!)
+	"wonder.*wanted.*join.*cool", --Hey * ... I was wondering you know... If you wanted to join <*>... It's pretty cool. We like to party. And pants. Sorry. I'll go now.
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
@@ -245,6 +252,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,
 		msg = msg:lower() --Lower all text, remove capitals
 		for i = 1, #whispers do
 			if strfind(msg, whispers[i]) then --Found a match
+				--print(whispers[i])
 				if BadBoyLog then BadBoyLog("Guilded", event, player, msg) end
 				whispResult = true
 				return true --found a trigger, filter
