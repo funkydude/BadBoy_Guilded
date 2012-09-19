@@ -237,6 +237,7 @@ local whispers = {
 	"recruit.*casual.*progres", --<*> <1> Is Now Recruiting. Formed by an 8/8HM experienced GM. <*> aims to become one of the major casual hubs for coming MoP, while at the same time, allowing for progression in a HM environemnt. Aus weeknight raiding (Late Night US).
 	"open.*repair.*join", --<*> We're open for everyone to come chill while playing. Free Repairs! No requirements or expectations. Press Accept to Join
 	"recruit.*bonus.*exp", --<*> of * recruiting! Earn 5% BONUS experience with *!
+	"join.*bonus.*exp", --<*> Join us for 5% BONUS Experience! 
 	"le?ve?l.*guild.*perk", --Enjoy level 25 guild perks without responsibility.
 	"le?ve?l.*guild.*info", --<*> is just form and we pay you to lvl! 10g for lvl10 and 20g for lvl 20 and so on! 300g for lvl 85! (must lvl while in guild) Pst for more info and invite! (looking for some good ppl to be officers!)
 	"wonder.*wanted.*join.*cool", --Hey * ... I was wondering you know... If you wanted to join <*>... It's pretty cool. We like to party. And pants. Sorry. I'll go now.
