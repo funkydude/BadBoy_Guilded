@@ -53,6 +53,9 @@ local prevLineId, result, triggers = 0, nil, {
 	"searching.*raiders.*progress", -- * We are searching for hardcore raiders for HC DS progression, You will need 395+ Ilvl, Achievement (8/8 Normal, Minimum), Microphone and to be above 16+. Searching for Druid (Tank) or a Death Knight (Tank).
 	"guild.*seeking.*exp", --REGAIN {skull}25 lvl{skull} 8/8 HC DS raiding guild seeking for raiders/pvpers and socials for MoP. RBG team leaded by 2.4k experienced pvpers.
 	"guild.*classes.*members", --* are currently lvl 17 and are rebuilding the guild so were accepting all classes and lvls, we are not interested in what item lvl you have we are interested in social members and want people to enjoy the game,whisp for info :)
+	"looking for.*player.*class", --* lv 25 We are looking for solid players who are wanting to be part of a guild that will be competitive and will advance quickly in MOP.We are a active friendly raiding guild currently accepting all classes.we are 8/8 heroic DS
+	"looking for.*pvp.*whisper", -->* is looking for more PvPers to fill our ranks. If you're level 85 and enjoy killing Alliance then whisper me now for an invite. Come get ready for the big adventure into MOP.
+	"guild.*dungeons.*mount", --* Are LF more 85's to do guild heroics and dungeons Also working on Filling out our raid teams As well as giving away great prizes every lvl gain as well as choppers .We do mount runs all over the place
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -136,7 +139,7 @@ end)
 
 local whispers = {
 	"would.*join my.*guild", --Would you like to join my social raiding guild?.. lv1 but it will grow fast with your help :D and lottery. u can win 50g a week. MORE later!!
-	"wanna.*join my.*guild", --wanna join my guild im not one of those f*gs that spamf*ck the trade but you have to start from somewhere well pst if u want in if u dont idc i only have me and my best friend in it right now and we have only been using it for storage... 
+	"wanna.*join my.*guild", --wanna join my guild im not one of those f*gs that spamf*ck the trade but you have to start from somewhere well pst if u want in if u dont idc i only have me and my best friend in it right now and we have only been using it for storage...
 	"would.*join our.*guild", --Would you like to join our guild ? if you join We will pay your all repair costrs...
 	"would.*join a.*guild", --Would You Like To Join a New Guild ? Help us Grow. That Will Give You Free Repair When You Reach Lvl 5! wen you reach 85 u will Get 2000g
 	"would.*join.*social.*guild", --Hello <>,how are you? would you like to join <> a newly created socialplayer guild!
@@ -237,10 +240,11 @@ local whispers = {
 	"recruit.*casual.*progres", --<*> <1> Is Now Recruiting. Formed by an 8/8HM experienced GM. <*> aims to become one of the major casual hubs for coming MoP, while at the same time, allowing for progression in a HM environemnt. Aus weeknight raiding (Late Night US).
 	"open.*repair.*join", --<*> We're open for everyone to come chill while playing. Free Repairs! No requirements or expectations. Press Accept to Join
 	"recruit.*bonus.*exp", --<*> of * recruiting! Earn 5% BONUS experience with *!
-	"join.*bonus.*exp", --<*> Join us for 5% BONUS Experience! 
+	"join.*bonus.*exp", --<*> Join us for 5% BONUS Experience!
 	"le?ve?l.*guild.*perk", --Enjoy level 25 guild perks without responsibility.
 	"le?ve?l.*guild.*info", --<*> is just form and we pay you to lvl! 10g for lvl10 and 20g for lvl 20 and so on! 300g for lvl 85! (must lvl while in guild) Pst for more info and invite! (looking for some good ppl to be officers!)
 	"wonder.*wanted.*join.*cool", --Hey * ... I was wondering you know... If you wanted to join <*>... It's pretty cool. We like to party. And pants. Sorry. I'll go now.
+	"pve.*players.*join", --Hey! do you enjoy PVP, PVE, and hanging with other players? join <*> !
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
