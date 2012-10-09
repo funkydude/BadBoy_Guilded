@@ -245,6 +245,8 @@ local whispers = {
 	"le?ve?l.*guild.*info", --<*> is just form and we pay you to lvl! 10g for lvl10 and 20g for lvl 20 and so on! 300g for lvl 85! (must lvl while in guild) Pst for more info and invite! (looking for some good ppl to be officers!)
 	"wonder.*wanted.*join.*cool", --Hey * ... I was wondering you know... If you wanted to join <*>... It's pretty cool. We like to party. And pants. Sorry. I'll go now.
 	"pve.*players.*join", --Hey! do you enjoy PVP, PVE, and hanging with other players? join <*> !
+	"currently.*le?ve?l.*guild", --<*> Currently Running Heroic MoP dugneons - lf people leveling or who are already at 90! Casual laid back guild with alot of experience
+	"le?ve?l.*friendly.*pst", --Lfm for * . lvl 25 .friendly and light raiding . pst for invite or info Ty
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
