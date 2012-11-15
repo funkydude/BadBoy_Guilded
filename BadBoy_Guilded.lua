@@ -247,6 +247,10 @@ local whispers = {
 	"pve.*players.*join", --Hey! do you enjoy PVP, PVE, and hanging with other players? join <*> !
 	"currently.*le?ve?l.*guild", --<*> Currently Running Heroic MoP dugneons - lf people leveling or who are already at 90! Casual laid back guild with alot of experience
 	"le?ve?l.*friendly.*pst", --Lfm for * . lvl 25 .friendly and light raiding . pst for invite or info Ty
+	"join.*le?ve?l.*fun.*activ", --JOIN <*> level9 we are fun activive and freindly and wanna grow so come joing and just chill
+	"le?ve?l.*want.*raid.*www", --<*> lvl 25 WANTS YOU for raids and rbgs. www.*.com
+	"guild.*repair.*invite", --* is a pvp guild with repair for levelling toons, let me know if you would like an invite!
+	"guild.*invite.*le?ve?l", --Hey there.. I know you probably get sapmmed a lot by these guys becasue you're guildless.. but would you like an invite to one? We all use vent and are a good group yo level with and gear up.
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
