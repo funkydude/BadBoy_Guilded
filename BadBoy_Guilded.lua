@@ -57,6 +57,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking for.*player.*class", --* lv 25 We are looking for solid players who are wanting to be part of a guild that will be competitive and will advance quickly in MOP.We are a active friendly raiding guild currently accepting all classes.we are 8/8 heroic DS
 	"looking for.*pvp.*whisper", -->* is looking for more PvPers to fill our ranks. If you're level 85 and enjoy killing Alliance then whisper me now for an invite. Come get ready for the big adventure into MOP.
 	"guild.*dungeons.*mount", --* Are LF more 85's to do guild heroics and dungeons Also working on Filling out our raid teams As well as giving away great prizes every lvl gain as well as choppers .We do mount runs all over the place
+	"new guild.*join", --New guild formed : * : is a new harcore pvp guild req to join is 2400 exp in arena or rbg , doing rbg every week so be active 
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -70,6 +71,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*letar.*spelare", --Guilden "*" Letar efter nya spelare till Ds 10, Vi har 4 hc on farm och letar efter mer folk som kan bidra till en full Hcclear inom sin tid!
 	"guild.*info.*välkommna", --HEJ ! nu startar vi en ny svensk guild för barna runt 13 år . Vi kommer köra raids som BH , FL , DS kanske börja lite lätt med BwD och BoT , vi vill gärna att ni ska ha skype :) w spec och class / w för mer info!!! ni är välkommna :)
 	"letar.*söker.*info", --<*> letar efter raiders till vårat DS 10 manna team. Just nu så söker vi efter 1 warrior tank och en paladin tank, 1 disc präst och 1 holy paladin och 1 Mage. Vi kommer att raida från 19:00-22:30.  Viska mig för mer info
+	"guild.*letar.*social", --Är du svensk och letar efter en svensk guild?Vi i Guildet "*" är en nystartad i level 11 och letar alla sorters medlemmar, vi är just nu en social guild som kommer satsa på Raiding och förhoppningsvis PVP också.
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
@@ -114,6 +116,7 @@ local prevLineId, result, triggers = 0, nil, {
 
 	--Croatian
 	"le?ve?l.*primamo.*igrace", -- * (lvl25) za sve one koji ovo razumeju. Primamo sve zainteresovane igrace 85lvl koji igru pre svega shvataju kao zabavu a ne obavezu. Za vise informacija/w
+	"guild.*trazimo ljude", --* je balkanski guild lvl25 i trazimo ljude za pvp a i ostali clanovi su dobrodosli, trenutni fokus je na rbg i arenama, a i pravit ce se tim za pve progress,Clanova: 104 atm Svi  su dobrodosli{rt8}
 
 	--Hungarian
 	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
