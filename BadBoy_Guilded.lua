@@ -62,6 +62,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking for.*pvp.*whisper", -->* is looking for more PvPers to fill our ranks. If you're level 85 and enjoy killing Alliance then whisper me now for an invite. Come get ready for the big adventure into MOP.
 	"guild.*dungeons.*mount", --* Are LF more 85's to do guild heroics and dungeons Also working on Filling out our raid teams As well as giving away great prizes every lvl gain as well as choppers .We do mount runs all over the place
 	"new guild.*join", --New guild formed : * : is a new harcore pvp guild req to join is 2400 exp in arena or rbg , doing rbg every week so be active 
+	"lv%d+.*guild.*need.*wh?isp", --{rt1}{rt3} * LV25 guild. Is LF heals for rbg team. we need a extra shamen, holy and disc. do you have gear/skills wisp me {rt3}{rt1}
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -77,6 +78,7 @@ local prevLineId, result, triggers = 0, nil, {
 	--Guilden "*" Letar efter nya spelare till Ds 10, Vi har 4 hc on farm och letar efter mer folk som kan bidra till en full Hcclear inom sin tid!
 	--Är du svensk och letar efter en svensk guild?Vi i Guildet "*" är en nystartad i level 11 och letar alla sorters medlemmar, vi är just nu en social guild som kommer satsa på Raiding och förhoppningsvis PVP också.
 	"guild.*letar", --* 10m semi-hardcore raiding guild letar efter en healer (ej paladin) för fortsatt progress. Även en hunter/eleshaman/spriest/boomkin eftertraktas. Hör av dig om du är intresserad!
+	"gille.*söker", --<<<<*>>>> Vi är ett 10 manna gille som söker fler spelare till våran core [grupp.Vi]har 1/6 Hc MSV 6/6 HOF 3/4 ToES vi söker 1 Healer 1 Meele  ilvl 480+ 18+ om du är inresserad hör av dig för mer info...
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
