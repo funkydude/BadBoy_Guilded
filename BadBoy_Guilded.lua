@@ -9,6 +9,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"enjin%.com",
 	"guildomatic%.com",
 	"re[cq]rui?t",
+	"recuiting",
 	"^wt[bs] guild",
 	"^wt[bs] %d+%+? guild",
 	"^wt[bs] %d+%+? le?ve?l guild",
