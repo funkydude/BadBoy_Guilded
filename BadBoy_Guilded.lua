@@ -116,7 +116,8 @@ local prevLineId, result, triggers = 0, nil, {
 	"aran?maktadır.*progres", --*  - * yeni transfer olmustur ve suanki tier ve MOP icin kadrosuna classina hakim oyuncular aramaktadır ,Suanki 1/8 HC progressimiz devam ettirmek istiyoruz oncelikli Tank ve Healer alimi vardir.
 	"gu[iı]+ld.*raid.*oyuncu", --* guildi kurulmuş olan 25 man kadrosunu güçlendiriyor. Raidlere istekli katılacak, saygılı ve paylaşımı seven türk oyuncuları bekliyoruz.
 	"başvuru.*www", --Hurish Başvuru için lütfen "www.*.com" adresine giriş yaparak formu doldurunuz.
-	"aranmaktadır.*bilgi.*/w", --* (7/8 Hc) Hc Madness ve MoP icin Off-tank(warrior-paladin) aranmaktadır. Daha fazla bilgi icin /w
+	--{rt3} * {rt3} 1/6HC 15/16 normal main kadrosu icin  haftada 4 aksam 8-12 arasi raid yapabilecek yetenekli, classina hakim oyuncular aramaktadir. Tercih edilen classlar (lock/ele shammy/SP) Bilgi icin /w
+	"aran?maktad[iı]+r.*bilgi.*/w", --* (7/8 Hc) Hc Madness ve MoP icin Off-tank(warrior-paladin) aranmaktadır. Daha fazla bilgi icin /w
 	"classlara.*ihtiyacı olup.*ulassın", -- -*- MoP Paketinde Yeniden Yapılandırma Surecinde Olan Guildimizin Raider Classlara Ihtiyacı Olup , Online Suresi Yuksek, Classına Hakim Range/Caster Dps  Alımı Yapacaktır.Ilgilenenler Ulassın . Tesekkurler.
 	"le?ve?l.*gu[iı]+ld.*whisper", --<*> Level 25 * dan *'a yeni transfer edilen guildimize main kadroya healer(Resto Druid/Shaman/Monk) ve Tank(DK/Pala/Druid) arıyoruz. Ilgilenenler whisper atabilir.
 	"le?ve?l.*gu[iı]+ld.*/w", --&&& * &&& 25 LVL PVP Guıldimize Rbg için Resto Druıd ve Resto Shaman alınacaktır. /w me
