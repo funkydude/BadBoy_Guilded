@@ -11,9 +11,9 @@ local prevLineId, result, triggers = 0, nil, {
 	"re[cq]rui?t",
 	"recuiting",
 	"^wt[bs] guild",
-	"^wt[bs] %d+%+? guild",
-	"^wt[bs] %d+%+? le?ve?l guild",
-	"^wt[bs] le?ve?l %d+%+? guild",
+	"wt[bs] %d+%+? guild",
+	"wt[bs] %d+%+? le?ve?l guild",
+	"wt[bs] le?ve?l %d+%+? guild",
 	"^wtb a guild", --WTB a guild around lvl 15, make me an offer!
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
 	"www.*apply", --pls go to www.*.com to apply or wisp me for extra info.
@@ -269,6 +269,7 @@ local whispers = {
 	"le?ve?l.*want.*raid.*www", --<*> lvl 25 WANTS YOU for raids and rbgs. www.*.com
 	"guild.*repair.*invite", --* is a pvp guild with repair for levelling toons, let me know if you would like an invite!
 	"guild.*invite.*le?ve?l", --Hey there.. I know you probably get sapmmed a lot by these guys becasue you're guildless.. but would you like an invite to one? We all use vent and are a good group yo level with and gear up.
+	"^enterinvitemessagehere", --Enter invite message here...
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
