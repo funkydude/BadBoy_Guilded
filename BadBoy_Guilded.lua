@@ -271,6 +271,7 @@ local whispers = {
 	"guild.*repair.*invite", --* is a pvp guild with repair for levelling toons, let me know if you would like an invite!
 	"guild.*invite.*le?ve?l", --Hey there.. I know you probably get sapmmed a lot by these guys becasue you're guildless.. but would you like an invite to one? We all use vent and are a good group yo level with and gear up.
 	"^enterinvitemessagehere", --Enter invite message here...
+	"^alltheguildperksyouneed", --All the guild perks you need :)
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
