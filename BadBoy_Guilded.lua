@@ -122,6 +122,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"classlara.*ihtiyacı olup.*ulassın", -- -*- MoP Paketinde Yeniden Yapılandırma Surecinde Olan Guildimizin Raider Classlara Ihtiyacı Olup , Online Suresi Yuksek, Classına Hakim Range/Caster Dps  Alımı Yapacaktır.Ilgilenenler Ulassın . Tesekkurler.
 	"le?ve?l.*gu[iı]+ld.*whisper", --<*> Level 25 * dan *'a yeni transfer edilen guildimize main kadroya healer(Resto Druid/Shaman/Monk) ve Tank(DK/Pala/Druid) arıyoruz. Ilgilenenler whisper atabilir.
 	"le?ve?l.*gu[iı]+ld.*/w", --&&& * &&& 25 LVL PVP Guıldimize Rbg için Resto Druıd ve Resto Shaman alınacaktır. /w me
+	"%d%dm.*guild.*bilgi", ---*- Semi-Hardcore Guildimizi 25man e cevirmek amaclı classına hakim online suresi yuksek raider arkadaslara ihtiyac duyulmaktadır.Gerekli bilgi icin lutfen ulasın.Tesekkurler..
 
 	--Croatian
 	"le?ve?l.*primamo.*igrace", -- * (lvl25) za sve one koji ovo razumeju. Primamo sve zainteresovane igrace 85lvl koji igru pre svega shvataju kao zabavu a ne obavezu. Za vise informacija/w
