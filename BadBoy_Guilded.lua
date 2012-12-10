@@ -61,8 +61,10 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking for.*player.*class", --* lv 25 We are looking for solid players who are wanting to be part of a guild that will be competitive and will advance quickly in MOP.We are a active friendly raiding guild currently accepting all classes.we are 8/8 heroic DS
 	"looking for.*pvp.*whisper", -->* is looking for more PvPers to fill our ranks. If you're level 85 and enjoy killing Alliance then whisper me now for an invite. Come get ready for the big adventure into MOP.
 	"guild.*dungeons.*mount", --* Are LF more 85's to do guild heroics and dungeons Also working on Filling out our raid teams As well as giving away great prizes every lvl gain as well as choppers .We do mount runs all over the place
-	"new guild.*join", --New guild formed : * : is a new harcore pvp guild req to join is 2400 exp in arena or rbg , doing rbg every week so be active 
+	"new guild.*join", --New guild formed : * : is a new harcore pvp guild req to join is 2400 exp in arena or rbg , doing rbg every week so be active
 	"lv%d+.*guild.*need.*wh?isp", --{rt1}{rt3} * LV25 guild. Is LF heals for rbg team. we need a extra shamen, holy and disc. do you have gear/skills wisp me {rt3}{rt1}
+	"<.*>.*looking.*%d/%d", --<*> Currently looking for Healers with atleast 6/6 experiance, prefer Druids/Paladin & Warlock/DK Dps  we currently have 6/6 down in MsV10 & 2/6 HoF! Whisper me for more information!
+	"[12][05]m.*progress", --{rt3} * {rt3} (10man) (6/6 MSV)(2/6 HoF). Our core is in need of tank (dk,druid) and 1 ranged dps (hunter,druid). If you are skilled and want to progress in new raids, feel free to whisper (18+). Raid days / time: Wed, Thur, Sun / 20:00-23:00
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -89,6 +91,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"søger.*medlemmer", --* søger flere medlemmer danskere svenskere og nordmæn
 	"leder efter.*members.*social", --* er lvl3 atm leder efter flere members til raid mangler healers tanks og ranged dps alle er velkommen selv om i vil raid eller være sociale bare kom med det gode humør du skal være dansk for at join eller kunne snakke det nogen lunde rent.
 	"guild.*søger", --<*> Dansk guild, søger holy/disc priest til at begynde raid. holdet består af 9/10 irl venner indtil videre.
+	"spillere.*søger.*class", --* står overfor en fornyelse. Vi er en håndfuld spillere der, efter længere tids fravær, har besluttet os at starte igen. Vi søger derfor folk til at starte fra bunden af det nuværende Tier. Alle classes og specs vil blive overvejet.
 
 	--Finnish
 	"kilta.*etsii", --*, Suomalainen PvE-kilta joka etsii vain pelaajia jotka osaavat liikkua tulesta ja joita kiinnostaisi raidata 10man DS normaalia ja heroiccia jatkossa, tähtäämme parempaan tasoon kuin suurin osa servun suomikilloista! /w jos kysyttävää
@@ -126,6 +129,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"le?ve?l.*gu[iı]+ld.*whisper", --<*> Level 25 * dan *'a yeni transfer edilen guildimize main kadroya healer(Resto Druid/Shaman/Monk) ve Tank(DK/Pala/Druid) arıyoruz. Ilgilenenler whisper atabilir.
 	"le?ve?l.*gu[iı]+ld.*/w", --&&& * &&& 25 LVL PVP Guıldimize Rbg için Resto Druıd ve Resto Shaman alınacaktır. /w me
 	"guild.*%d%dm.*bilgi", ---*- Semi-Hardcore Guildimizi 25man e cevirmek amaclı classına hakim online suresi yuksek raider arkadaslara ihtiyac duyulmaktadır.Gerekli bilgi icin lutfen ulasın.Tesekkurler..
+	"gu[iı]+ld.*progres", --(*) Guıdimize 10 man progresi crsm cuma  ve cmts gunlerı raıd e katılcak gear duzeyı ıyı olan karekterıne hakım  arkadasları beklıyoruz ( TANK VE HEALER  )
 
 	--Croatian
 	"le?ve?l.*primamo.*igrace", -- * (lvl25) za sve one koji ovo razumeju. Primamo sve zainteresovane igrace 85lvl koji igru pre svega shvataju kao zabavu a ne obavezu. Za vise informacija/w
