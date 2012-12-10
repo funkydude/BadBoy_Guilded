@@ -83,6 +83,7 @@ local prevLineId, result, triggers = 0, nil, {
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
+	"rekruterer", -->>>*<<< Er en Norsk social /raiding guild. Vi rekruterer for å starte en ny 10man group får å cleare alt som kan cleares. Guilden er lvl 25 og nyflyttet fra bloodfeather, Vis du vil bli med bare gi oss en whisper, alle er velkommen!
 
 	--Danish
 	"søger.*medlemmer", --* søger flere medlemmer danskere svenskere og nordmæn
