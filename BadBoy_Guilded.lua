@@ -281,6 +281,7 @@ local whispers = {
 	"guild.*invite.*le?ve?l", --Hey there.. I know you probably get sapmmed a lot by these guys becasue you're guildless.. but would you like an invite to one? We all use vent and are a good group yo level with and gear up.
 	"^enterinvitemessagehere", --Enter invite message here...
 	"^alltheguildperksyouneed", --All the guild perks you need :)
+	"hello.*join my guild.*free", --Hello *! JOIN MY GUILD FOR FREE SHIZZ HAHA AND GET FREE GOLD
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
