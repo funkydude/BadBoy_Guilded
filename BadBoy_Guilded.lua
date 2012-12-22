@@ -14,6 +14,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"wt[bs] %d+%+? guild",
 	"wt[bs] %d+%+? le?ve?l guild",
 	"wt[bs] le?ve?l %d+%+? guild",
+	"selling le?ve?l ?%d+ ?guild", --selling lvl25guild 100k
 	"^wtb a guild", --WTB a guild around lvl 15, make me an offer!
 	"^wtb low le?ve?l guild", --wtb low lvl guild for cheap money, any lvl will do
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
