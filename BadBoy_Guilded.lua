@@ -23,6 +23,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"apply.*www", --<> We Are Looking For people Item lvl 333+ for our25man Cataclysm Raiding team. Must Be over 18+ to Apply or Have some insane Skills. If you Got Any Questions Go to www.<>.net Or contact me or a officer.
 	"gu?ilde?.*[/w][/w]", --<> is a newly formed social guild for all classes and levels. Our aim is to have fun and we hope to do raids when we are big enough. For any more info or an invite /w me. Thank You.
 	"pvp.*pve.*wh?isper", --instead of joining solo and end up loosing with randoms. Ofcourse we group up for Random HCs with both PvP and PvE players aswell and if the PvE group need an extra player for the raid, PvP guys can get invited. Whisper me for more info.
+	"whisper.*info.*http", --Whisper me for more info or visit [http://*.com/]
 	"looking for.*http", --<> Looking for: Resto shaman&Tank. You need skill, focus and patience to learn and pass the fights. If you want to clear bosses before the nerfs then this is the right place for you /w or go to http://<>.info
 	"guild.*pst",--<> an adult guild looking for more players who are active ,like to have fun ,talk in vent & will help others. LVL 5 GUILD !we'd like fun people to enjoy the new content of CATA,all lvls, classes, races are welcome PST FOR MORE INFO/INVI
 	"guild.*bank.*tabs", --Looking for a guild to relax after a hard day of work or school? <> is layed back and alota fun. We are a lev 7 guild and have 7 Guild Bank tabs. we have vent as well so stop by and check us out. come run some dungeons..
@@ -141,6 +142,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"klán.*raid.*karakter", --A * klán (lvl25) felnött vagy felnött gondolkodású embereket keres raidezésre, pvp-re és egyéb szórakozásokra. Nem számít a karakter vagy a felszerelés szintje, csak az igény a könnyed, stresszmentes szórakozásra.
 	"klán.*jelentkezését", --* lvl 25-ös klán újra aktív. Aktív játékosok jelentkezését várjuk, akik Pandaria altt is raidelni szeretnénke majd. Infóért írjatok rám nyugodtan.
 	"guild.*keresünk", --* guild tagfelvételt hírdet, amit keresünk az heal( pap,Shaman) és dps( rugó, Hunter,)! Célunk az aktuális content minél elöbbi kitakarítása normálban(ill. hcban)! Részletek whispben.
+	"guild.*keres.*játékost", --<*> Frissen alakult Magyar guild tagokat keres. Várunk szeretettel minden játékost szint/gear megkötés nélkül! Ha szeretnél tagja lenni egy aktív csapatnak írj bátran nekem, vagy Woolfie-nak!
 
 	--Polish
 	"gildia.*szuka", --Polska gildia RP-PvE szuka graczy do wspolnej zabawy. Chcemy stworzyc porzadna ekipe do gry zarówno PvE jak i PvP! Jednoczesnie chcemy aby w "*" panowała miła atmosfera. Gildia stworzona przez ludzi z duzym doswiadczeniem w WoW i innych grach MMO
@@ -282,6 +284,10 @@ local whispers = {
 	"^enterinvitemessagehere", --Enter invite message here...
 	"^alltheguildperksyouneed", --All the guild perks you need :)
 	"hello.*join my guild.*free", --Hello *! JOIN MY GUILD FOR FREE SHIZZ HAHA AND GET FREE GOLD
+	"invite.*guild.*social", --Hey, I’d like to invite you to * guild, which is a social and nice group of WoW players. We are going to take as much fun from playing WoW as it's possible. Also, some PVP & PVE contents are in plans tho.
+	"guild.*perk.*social", --Hey! I apologize for the spontaneous request, but I would like to hear if you would like to become a part of this brand new guild <*>, We've only just reached lvl 6. Our goal is not only to provide perks, but also to create a social community!-GM
+
+	"gilde.*kommen.*level", --Hättest du lust in meine Gilde zu kommen? Nur bist du 90 bist oder was besseres geunden hast oder so? Damit du nebenbei meine Gilde mit Leveln würdest, haben schon Stufe 4
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
