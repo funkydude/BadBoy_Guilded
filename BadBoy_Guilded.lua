@@ -68,6 +68,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"<.*>.*looking.*%d/%d", --<*> Currently looking for Healers with atleast 6/6 experiance, prefer Druids/Paladin & Warlock/DK Dps  we currently have 6/6 down in MsV10 & 2/6 HoF! Whisper me for more information!
 	"[12][05]m.*progress", --{rt3} * {rt3} (10man) (6/6 MSV)(2/6 HoF). Our core is in need of tank (dk,druid) and 1 ranged dps (hunter,druid). If you are skilled and want to progress in new raids, feel free to whisper (18+). Raid days / time: Wed, Thur, Sun / 20:00-23:00
 	"looking for experienced raiders", --<*> is looking for experienced raiders! What we need 1tank:Druid,DK,War / 1heal: Shaman,Druid (with good dps os) / some dps: Mage, Shaman(elemental with good heal os), Moonkin(with good heal os), Rogue / We raid 3-4times a week 19:30-22:00
+	"social.*guild.*join", --* lvl 1 asocial guild open for members. Join us if you want a guild tag and a tabard.
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
