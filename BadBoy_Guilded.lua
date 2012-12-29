@@ -290,6 +290,7 @@ local whispers = {
 	"hello.*join my guild.*free", --Hello *! JOIN MY GUILD FOR FREE SHIZZ HAHA AND GET FREE GOLD
 	"invite.*guild.*social", --Hey, I’d like to invite you to * guild, which is a social and nice group of WoW players. We are going to take as much fun from playing WoW as it's possible. Also, some PVP & PVE contents are in plans tho.
 	"guild.*perk.*social", --Hey! I apologize for the spontaneous request, but I would like to hear if you would like to become a part of this brand new guild <*>, We've only just reached lvl 6. Our goal is not only to provide perks, but also to create a social community!-GM
+	"guild.*le?ve?l.*accept", --Greetings! Do you want to be a part of a Guild, which is a leveling guild atm. but will later be a pvp guild? then press accept :=)
 
 	"gilde.*kommen.*level", --Hättest du lust in meine Gilde zu kommen? Nur bist du 90 bist oder was besseres geunden hast oder so? Damit du nebenbei meine Gilde mit Leveln würdest, haben schon Stufe 4
 }
