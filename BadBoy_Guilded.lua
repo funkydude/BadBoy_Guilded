@@ -295,7 +295,10 @@ local whispers = {
 	"recruit.*welcome.*info", --<*> is recruiting new players of all kind as we will try to cover all aspects of the game. We are currently mainly looking for raiders but everyone is welcome /w for more info or inv
 	"le?ve?l.*guild.*looking", --Hi, I am the GM of <Guild Name> a level 25 guild looking for additional members, interested? We have great benefits!
 
-	"gilde.*kommen.*level", --Hättest du lust in meine Gilde zu kommen? Nur bist du 90 bist oder was besseres geunden hast oder so? Damit du nebenbei meine Gilde mit Leveln würdest, haben schon Stufe 4
+	"gilde.*kommen.*le?ve?l", --Hättest du lust in meine Gilde zu kommen? Nur bist du 90 bist oder was besseres geunden hast oder so? Damit du nebenbei meine Gilde mit Leveln würdest, haben schon Stufe 4
+	"gilde.*rbg.*begrüßen", --Hi hast du lust in die Gilde * zu kommen? Machen gemeinsame Inis, Bgs, Erfolge usw. Sind im Neuaufbau daher sind für RBG Gruppe und Raid Gruppe noch Plätze frei! Würden uns freuen dich bei uns begrüßen zu dürfen =)
+	"gilde.*wilkommen.*suchen", --Möchten sie meiner Gilde beitreten ? Wir sind eine Fun-LvL gilde jeder Spieler ist herzlich wilkommen uns beizutreten ! Wir suchen neue mitglieder da die Gilde momentan ziehmlich klein ist. Sie könnten teil von etwas grossem werden ! :)
+	"gilde.*sucht.*interesse", --Hallo Die Gilde <*> 25 - sucht noch paar Aktive & Freundliche spieler... TS3 / Gildenfächer / grosse Freude & Aktivität vorhanden... Raiden ist momentan nicht geplant... wird aber eingeführt später :) Interesse ?
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
