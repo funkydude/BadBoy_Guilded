@@ -69,6 +69,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"[12][05]m.*progress", --{rt3} * {rt3} (10man) (6/6 MSV)(2/6 HoF). Our core is in need of tank (dk,druid) and 1 ranged dps (hunter,druid). If you are skilled and want to progress in new raids, feel free to whisper (18+). Raid days / time: Wed, Thur, Sun / 20:00-23:00
 	"looking for experienced raiders", --<*> is looking for experienced raiders! What we need 1tank:Druid,DK,War / 1heal: Shaman,Druid (with good dps os) / some dps: Mage, Shaman(elemental with good heal os), Moonkin(with good heal os), Rogue / We raid 3-4times a week 19:30-22:00
 	"social.*guild.*join", --* lvl 1 asocial guild open for members. Join us if you want a guild tag and a tabard.
+	"%d+m.*looking.*raiders.*need", --<*> 25man 16/16N  66/16H Looking for Solid raiders. Ranged DPS needed. (SP / Mage / Lock / Boomkin / Ele Sham. www.*.com RAID TIME MTW 10:30pm-1:30am Server
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -292,6 +293,7 @@ local whispers = {
 	"guild.*perk.*social", --Hey! I apologize for the spontaneous request, but I would like to hear if you would like to become a part of this brand new guild <*>, We've only just reached lvl 6. Our goal is not only to provide perks, but also to create a social community!-GM
 	"guild.*le?ve?l.*accept", --Greetings! Do you want to be a part of a Guild, which is a leveling guild atm. but will later be a pvp guild? then press accept :=)
 	"recruit.*welcome.*info", --<*> is recruiting new players of all kind as we will try to cover all aspects of the game. We are currently mainly looking for raiders but everyone is welcome /w for more info or inv
+	"le?ve?l.*guild.*looking", --Hi, I am the GM of <Guild Name> a level 25 guild looking for additional members, interested? We have great benefits!
 
 	"gilde.*kommen.*level", --Hättest du lust in meine Gilde zu kommen? Nur bist du 90 bist oder was besseres geunden hast oder so? Damit du nebenbei meine Gilde mit Leveln würdest, haben schon Stufe 4
 }
