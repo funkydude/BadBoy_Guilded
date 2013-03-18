@@ -70,6 +70,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking for experienced raiders", --<*> is looking for experienced raiders! What we need 1tank:Druid,DK,War / 1heal: Shaman,Druid (with good dps os) / some dps: Mage, Shaman(elemental with good heal os), Moonkin(with good heal os), Rogue / We raid 3-4times a week 19:30-22:00
 	"social.*guild.*join", --* lvl 1 asocial guild open for members. Join us if you want a guild tag and a tabard.
 	"%d+m.*looking.*raiders.*need", --<*> 25man 16/16N  66/16H Looking for Solid raiders. Ranged DPS needed. (SP / Mage / Lock / Boomkin / Ele Sham. www.*.com RAID TIME MTW 10:30pm-1:30am Server
+	"friendly.*active.*guild.*relax", --~~Tired of being on the sideline in your guild with no one to talk to? Want a more friendly yet active guild? Have a sense of humor? Come and relax in ~~*~~ (20) and make some new friends =)
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
@@ -294,6 +295,7 @@ local whispers = {
 	"guild.*le?ve?l.*accept", --Greetings! Do you want to be a part of a Guild, which is a leveling guild atm. but will later be a pvp guild? then press accept :=)
 	"recruit.*welcome.*info", --<*> is recruiting new players of all kind as we will try to cover all aspects of the game. We are currently mainly looking for raiders but everyone is welcome /w for more info or inv
 	"le?ve?l.*guild.*looking", --Hi, I am the GM of <Guild Name> a level 25 guild looking for additional members, interested? We have great benefits!
+	"le?ve?l.*raid.*guild.*gold", --If you are going to lvl you might as well have fun doing it. We are a raid guild that allows lvlers to come enjoy the atmosphere. We offer weekly games up to 1k gold winners!!! stick around to raid or whatever. come win gold while u lvl!!!
 
 	"gilde.*kommen.*le?ve?l", --Hättest du lust in meine Gilde zu kommen? Nur bist du 90 bist oder was besseres geunden hast oder so? Damit du nebenbei meine Gilde mit Leveln würdest, haben schon Stufe 4
 	"gilde.*rbg.*begrüßen", --Hi hast du lust in die Gilde * zu kommen? Machen gemeinsame Inis, Bgs, Erfolge usw. Sind im Neuaufbau daher sind für RBG Gruppe und Raid Gruppe noch Plätze frei! Würden uns freuen dich bei uns begrüßen zu dürfen =)
