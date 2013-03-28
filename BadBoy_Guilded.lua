@@ -71,9 +71,11 @@ local prevLineId, result, triggers = 0, nil, {
 	"social.*guild.*join", --* lvl 1 asocial guild open for members. Join us if you want a guild tag and a tabard.
 	"%d+m.*looking.*raiders.*need", --<*> 25man 16/16N  66/16H Looking for Solid raiders. Ranged DPS needed. (SP / Mage / Lock / Boomkin / Ele Sham. www.*.com RAID TIME MTW 10:30pm-1:30am Server
 	"friendly.*active.*guild.*relax", --~~Tired of being on the sideline in your guild with no one to talk to? Want a more friendly yet active guild? Have a sense of humor? Come and relax in ~~*~~ (20) and make some new friends =)
+	"looking.*active.*people.*info", --{rt1}* Looking for Active, Skilled and experienced people for RBG/Arena | Even WorldPvP, funny events | In need of Rshamans,Wlocks and 1 hpala | Bring 1600+ exp, Skype/TS3 and good gear | /w for more information|{rt1}
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
+	"recruut.*guild.*welkom", --<*> recruut momenteel 1 Boomkin en 1 frost mage voor ons RBG team. Cleanse is een Nederlands talige pvp guild. Alle nederlandstalige spelers zijn welkom om te joinen. Onze we spelen op donderdagen en zondagen om 20:00. Whisp voor meer info
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
