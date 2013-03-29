@@ -90,6 +90,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*letar", --* 10m semi-hardcore raiding guild letar efter en healer (ej paladin) för fortsatt progress. Även en hunter/eleshaman/spriest/boomkin eftertraktas. Hör av dig om du är intresserad!
 	"gille.*söker", --<<<<*>>>> Vi är ett 10 manna gille som söker fler spelare till våran core [grupp.Vi]har 1/6 Hc MSV 6/6 HOF 3/4 ToES vi söker 1 Healer 1 Meele  ilvl 480+ 18+ om du är inresserad hör av dig för mer info...
 	"letar.*raid.*social", --<*>(25) letar efter erfarna  rutinerad Warlock, Spriest & Reserver med healing os med sinne för humor till vårt core team för raids i MsV/HoF och annat kul, Raidtider Ons och Mån/Tis 19-23 /w för mer info (socials är välkommn
+	"söker.*spelare.*classer", --{rt1}*{rt1} Söker seriösa spelare som är intresserade av PVP och vill joina ett nytt RBG-team. Vi söker just nu alla classer!!! Du behöver 1,9k rating i RBG eller 1750 i arena. Finns några Reqs men whispra mig så tar vi dom.
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
