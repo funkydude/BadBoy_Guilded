@@ -314,7 +314,6 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,
 		return whispResult
 	else
 		whispPrevLineId, whispResult = lineId, nil
-		player = Ambiguate(player, "none") -- Unit events don't support PlayerName-MyServer
 		if not BADBOY_GWHISPER or tbl[player] or not CanComplainChat(player) or UnitIsInMyGuild(player) or UnitInRaid(player) or UnitInParty(player) or flag == "GM" or flag == "DEV" then return end
 		msg = msg:lower() --Lower all text, remove capitals
 		for i = 1, #whispers do
@@ -329,7 +328,6 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,
 end)
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER_INFORM", function(_,_,_,player)
-	player = Ambiguate(player, "none") -- Unit events don't support PlayerName-MyServer
 	if BADBOY_GWHISPER and not tbl[player] then tbl[player] = true end
 end)
 
