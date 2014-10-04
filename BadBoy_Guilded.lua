@@ -73,6 +73,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"friendly.*active.*guild.*relax", --~~Tired of being on the sideline in your guild with no one to talk to? Want a more friendly yet active guild? Have a sense of humor? Come and relax in ~~*~~ (20) and make some new friends =)
 	"looking.*active.*people.*info", --{rt1}* Looking for Active, Skilled and experienced people for RBG/Arena | Even WorldPvP, funny events | In need of Rshamans,Wlocks and 1 hpala | Bring 1600+ exp, Skype/TS3 and good gear | /w for more information|{rt1}
 	"pvp.*searching.*people.*guild", --== * == (Hardcore PVP) is now searching people with 2k + arena or rbg exp. Achivments has to be provided - No exceptions. (THIS IS --- NOT--- PILAVS GUILD. )
+	"team.*looking.*people.*tactic", --<*> LFM for our raiding team,We are looking for people with excellent communication skills whom are willing to put an effort into raiding with us! We are very patient when it comes to raiding and new people learning the tactics.
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social [invite] is ook mogelijk whisper voor meer info.
