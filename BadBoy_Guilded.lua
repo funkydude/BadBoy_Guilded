@@ -157,6 +157,7 @@ local prevLineId, result, triggers = 0, nil, {
 
 	--Polish
 	"gildia.*szuka", --Polska gildia RP-PvE szuka graczy do wspolnej zabawy. Chcemy stworzyc porzadna ekipe do gry zarówno PvE jak i PvP! Jednoczesnie chcemy aby w "*" panowała miła atmosfera. Gildia stworzona przez ludzi z duzym doswiadczeniem w WoW i innych grach MMO
+	"gildia.*poszukuje", --Gildia "*" (11/14 HC SoO) poszukuje aktywnych graczy do zasilenia grupy raidowej w 6.0 i WoD. Rekrutujemy zarowno raiderow jak i sociali. Gwarantujemy dobra zabawe i wsparcie doswiadczonych graczy.Masz jakies pytania? Whispuj smialo! :D Zapraszamy
 }
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,_,chanId,_,_,_,lineId)
