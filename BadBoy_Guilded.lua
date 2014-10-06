@@ -9,7 +9,6 @@ local prevLineId, result, triggers = 0, nil, {
 	"enjin%.com",
 	"guildomatic%.com",
 	"re[cq]rui?t",
-	"recuiting",
 	"^wt[bs] guild",
 	"wt[bs] %d+%+? guild",
 	"wt[bs] %d+%+? le?ve?l guild",
@@ -22,7 +21,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking.*members", -- <<>> is a social levelling looking for all members no lvl requirement, Once we have more members were looking to do Raids and PvP premades, /w if you would like to join please or  /w me for info.
 	"levell?in.*guild", --<> Easy Going Leveling Guild LFM of any levels, we are friendly, helpfull and have 6 guild tabs available.
 	"apply.*www", --<> We Are Looking For people Item lvl 333+ for our25man Cataclysm Raiding team. Must Be over 18+ to Apply or Have some insane Skills. If you Got Any Questions Go to www.<>.net Or contact me or a officer.
-	"gu?ilde?.*[/w][/w]", --<> is a newly formed social guild for all classes and levels. Our aim is to have fun and we hope to do raids when we are big enough. For any more info or an invite /w me. Thank You.
+	"social.*guild.*info", --<> is a newly formed social guild for all classes and levels. Our aim is to have fun and we hope to do raids when we are big enough. For any more info or an invite /w me. Thank You.
 	"pvp.*pve.*wh?isper", --instead of joining solo and end up loosing with randoms. Ofcourse we group up for Random HCs with both PvP and PvE players aswell and if the PvE group need an extra player for the raid, PvP guys can get invited. Whisper me for more info.
 	"whisper.*info.*http", --Whisper me for more info or visit http://*.com/
 	"looking for.*http", --<> Looking for: Resto shaman&Tank. You need skill, focus and patience to learn and pass the fights. If you want to clear bosses before the nerfs then this is the right place for you /w or go to http://<>.info
@@ -75,6 +74,8 @@ local prevLineId, result, triggers = 0, nil, {
 	"pvp.*searching.*people.*guild", --== * == (Hardcore PVP) is now searching people with 2k + arena or rbg exp. Achivments has to be provided - No exceptions. (THIS IS --- NOT--- PILAVS GUILD. )
 	"team.*looking.*people.*tactic", --<*> LFM for our raiding team,We are looking for people with excellent communication skills whom are willing to put an effort into raiding with us! We are very patient when it comes to raiding and new people learning the tactics.
 	"guild.*active.*social", --Hello, are you looking for a guild that is active for real? We "*" have events each night of the week, a HC 10m team, a 25m normal team, a RBG team, and enough social events to enjoy:) if you are social and mature, we can fit you in:)
+	"guild.*members.*community", --* new PvP guild, has already 150+members and great leaders we will shortly become the best pvp guild for the long term on * if you are 2.4+ cr/ RBG 2.4+ or hero pm me - already has alot of good players and good community
+	"team.*raid.*visit", --<*> 12HC LF Skilled , Dedicated & Exceptional HC raiders for our team to expand for SoO/WoD 20m. We advocate patience, respect & communication - working together to provide a strong & enjoyable raid experience! Visit our site or /w me
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
