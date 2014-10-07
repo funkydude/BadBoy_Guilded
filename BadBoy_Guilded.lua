@@ -78,6 +78,8 @@ local prevLineId, result, triggers = 0, nil, {
 	"team.*raid.*visit", --<*> 12HC LF Skilled , Dedicated & Exceptional HC raiders for our team to expand for SoO/WoD 20m. We advocate patience, respect & communication - working together to provide a strong & enjoyable raid experience! Visit our site or /w me
 	"guild.*players.*info", --{rt8} * {rt8} Persian 14/14 HC guild, switching to 25-man raiding for final resets of MOP, need more DPS players.9 HCs+25man HC raiding XP required, Times: Wed, Fri, Sun, Tues 18:30 - 22:00. /w for more - info 
 	"le?ve?l%d+.*progress.*whisp", --<*> <lvl 25> <14/14 n soo> we are in need of dps and healers to increase to 25 man we raid wed/sun/mon 8pm please be 560 item level and have 14/14 progress to start hc. we in need of mage and warlock the most.please whisper.
+	"looking.*raiders.*interest", --{rt6} * (lvl25) {rt6} is currently looking for serious Raiders for our WoD team. We need R-Dps(mage,druid), Tank(monk), Healer(priest,shaman). If you interested /w me and let's have a chat !
+	"guild.*missing.*info", --Guild {rt1} <*> (10M) Have Downed 7/14 Hc , We are Re-Building Again, We are Missing 2 tanks and 2RDps (Hunter) And 1 dps With Os heal) Have atleast 570+ And atleast 6/14 Hc exp , We Raid At Wed-Thurs-Mon 6 To 9:00 ST /W For more Info
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
