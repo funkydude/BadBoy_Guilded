@@ -84,6 +84,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking.*raiders.*interest", --{rt6} * (lvl25) {rt6} is currently looking for serious Raiders for our WoD team. We need R-Dps(mage,druid), Tank(monk), Healer(priest,shaman). If you interested /w me and let's have a chat !
 	"guild.*missing.*info", --Guild {rt1} <*> (10M) Have Downed 7/14 Hc , We are Re-Building Again, We are Missing 2 tanks and 2RDps (Hunter) And 1 dps With Os heal) Have atleast 570+ And atleast 6/14 Hc exp , We Raid At Wed-Thurs-Mon 6 To 9:00 ST /W For more Info
 	"social.*community.*pv[ep]", --[*] Are you looking for a social And Mature Community? That focus's on all Aspects of Wow! So if you Enjoy PvE, PvP or just want to be social then we're the place for you! Interested? head over to * (16+) or /w me!
+	"looking.*player.*mature", --* is looking for more experienced and willing players for WoD raiding, We'll be raiding Mythic and so we request you to optimise your gameplay:) All we ask is mature and positve behaviour. Please /w me if interested
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
