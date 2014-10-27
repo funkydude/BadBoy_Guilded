@@ -174,6 +174,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"gildia.*poszukuje", --Gildia "*" (11/14 HC SoO) poszukuje aktywnych graczy do zasilenia grupy raidowej w 6.0 i WoD. Rekrutujemy zarowno raiderow jak i sociali. Gwarantujemy dobra zabawe i wsparcie doswiadczonych graczy.Masz jakies pytania? Whispuj smialo! :D Zapraszamy
 	"rekrutuje", --{rt1}Polska gildia * rekrutuje! {rt1}Zapraszamy wszystkich chetnych do stworzenia zgranej paczki, ktora z pelna para rusz na Draenor! Kazdy jest mile widziany. Goraco zapraszamy!
 	"poszukuje.*gildii", --<*> poszukuje ludzi do reaktywacji gildii w WoD. Zapraszamy wszystkich chetnych do wspolnej gry. W planach: rozwoj sekcji pvp (grupa RBG) oraz pve. Zapewniamy wsparcie wielu doswiadczonych graczy oraz wlasny serwer ts3 oraz strone internetowa.
+	"poszukuje.*ludzi.*sklad", --< * >  Poszukuje ludzi by wzmocnic sklad na Mythic raidy w WoD. Potrzebujemy healerow i dpsow.  W razie pytan /w Robiko , Amka
 
 	--Lithuanian
 	"gu?ildija.*iesko", --Gildija * ruosiasi WoD'ui ir ta proga iesko daugiau zmoniu mythic raidinimui. Del daugiau info pm *, *, *, *.
