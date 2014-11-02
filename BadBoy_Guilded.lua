@@ -86,6 +86,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"social.*community.*pv[ep]", --[*] Are you looking for a social And Mature Community? That focus's on all Aspects of Wow! So if you Enjoy PvE, PvP or just want to be social then we're the place for you! Interested? head over to * (16+) or /w me!
 	"looking.*player.*mature", --* is looking for more experienced and willing players for WoD raiding, We'll be raiding Mythic and so we request you to optimise your gameplay:) All we ask is mature and positve behaviour. Please /w me if interested
 	"looking.*friendly.*team", --<*> is currently looking for friendly and raid experienced players for WoD raiding team. We need mostly DPS but also some healers. /w me for some more info
+	"join.*guild.*info", --Are you sick and tired of playing alone? Do you want to join a guild that treasures its community and values clearing WOD content together? Then wait no longer and join <*>, we'll be clearing raids, RBGs and enjoy guild events. /w for more info
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
@@ -109,6 +110,7 @@ local prevLineId, result, triggers = 0, nil, {
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
 	"rekruterer", -->>>*<<< Er en Norsk social /raiding guild. Vi rekruterer for å starte en ny 10man group får å cleare alt som kan cleares. Guilden er lvl 25 og nyflyttet fra bloodfeather, Vis du vil bli med bare gi oss en whisper, alle er velkommen!
+	"søger.*team.*dedikeret", --{rt1}{rt1}*{rt1}{rt1} 14/14 hc pre 6.0. Søger pt 1 healer(druid/monk) 3 dps(rogue/lock/moonkin til vores WOD mythic raid team. vi raider ons-søn-man 20.00-23.00. forventer du kender din class, du er en dedikeret raider. 18år +
 
 	--Danish
 	"søger.*medlemmer", --* søger flere medlemmer danskere svenskere og nordmæn
