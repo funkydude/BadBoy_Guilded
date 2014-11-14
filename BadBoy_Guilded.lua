@@ -87,10 +87,12 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking.*player.*mature", --* is looking for more experienced and willing players for WoD raiding, We'll be raiding Mythic and so we request you to optimise your gameplay:) All we ask is mature and positve behaviour. Please /w me if interested
 	"looking.*friendly.*team", --<*> is currently looking for friendly and raid experienced players for WoD raiding team. We need mostly DPS but also some healers. /w me for some more info
 	"join.*guild.*info", --Are you sick and tired of playing alone? Do you want to join a guild that treasures its community and values clearing WOD content together? Then wait no longer and join <*>, we'll be clearing raids, RBGs and enjoy guild events. /w for more info
+	"guild.*mature.*social", -- -*- is a large social guild with lots of friendly mature people, who enjoy the social side of the game we do classic raids, achies, rep runs if youre after a friendly social guild look no further than * and give me a wisper  :)
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
 	"recruut.*guild.*welkom", --<*> recruut momenteel 1 Boomkin en 1 frost mage voor ons RBG team. Cleanse is een Nederlands talige pvp guild. Alle nederlandstalige spelers zijn welkom om te joinen. Onze we spelen op donderdagen en zondagen om 20:00. Whisp voor meer info
+	"guild.*gezellige", --<*> is een nederlandstalige casual/raiding guild. We zijn op zoek naar casual mensen die onze gezellige guild willen joinen. /w mij of * voor meer info
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
@@ -178,6 +180,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"rekrutuje", --{rt1}Polska gildia * rekrutuje! {rt1}Zapraszamy wszystkich chetnych do stworzenia zgranej paczki, ktora z pelna para rusz na Draenor! Kazdy jest mile widziany. Goraco zapraszamy!
 	"poszukuje.*gildii", --<*> poszukuje ludzi do reaktywacji gildii w WoD. Zapraszamy wszystkich chetnych do wspolnej gry. W planach: rozwoj sekcji pvp (grupa RBG) oraz pve. Zapewniamy wsparcie wielu doswiadczonych graczy oraz wlasny serwer ts3 oraz strone internetowa.
 	"poszukuje.*ludzi.*sklad", --< * >  Poszukuje ludzi by wzmocnic sklad na Mythic raidy w WoD. Potrzebujemy healerow i dpsow.  W razie pytan /w Robiko , Amka
+	"gildia.*zaprasza", --Polska Gildia <*> zaprasza wszytkich do wspolnej gry. Pomagamy i przygotowujemy druzyne na nowy dodatek
 
 	--Lithuanian
 	"gu?ildija.*iesko", --Gildija * ruosiasi WoD'ui ir ta proga iesko daugiau zmoniu mythic raidinimui. Del daugiau info pm *, *, *, *.
