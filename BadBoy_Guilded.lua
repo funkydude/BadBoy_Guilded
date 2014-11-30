@@ -174,6 +174,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*keres.*szivesen", --* guild keres olyan playereket akik már a WoD-ra készülnek.Célunk WoDra egy ütőképes társaság kialakítása.A maradék MoP időben fun raid.A klán magja 10/14HC expel rendelkezik. Mindenkit szivesen látunk :)
 	"keresi.*aktív", --Sziasztok! Az * keresi aktív, raidelni vágyó játékosait a jelenlegi contentre és a következõ kiegre! Tapasztalt, jól müködõ, jó hangulatú csapat vagyunk! Mindenkit szeretettel várunk! infoért /w me!
 	"klán.*aktív", --Az * klán (* elsőszámú magyar Allis PvP guildje) várja az aktív, PVP kedvelő játékosokat, geartől és classtól függetlenül. Célunk a következő RBG szezon megnyerése *. Bővebb infoért /w  vagy www.*.hu
+	"guild.*www", --A visszatero <*> guild TGF-et hirdet aktiv jatekosoknak. Esti raidek, felnott, skilled jatekosok, sajat TS, igazsagos lootosztas (DKP rendszer), garantalt jo hangulat. Info /w vagy www.*.hu!
 
 	--Polish
 	"gildia.*szuka", --Polska gildia RP-PvE szuka graczy do wspolnej zabawy. Chcemy stworzyc porzadna ekipe do gry zarówno PvE jak i PvP! Jednoczesnie chcemy aby w "*" panowała miła atmosfera. Gildia stworzona przez ludzi z duzym doswiadczeniem w WoW i innych grach MMO
