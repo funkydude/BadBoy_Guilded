@@ -8,6 +8,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guildportal%.com",
 	"shivtr%.com",
 	"enjin%.com",
+	"%.wix%.com",
 	"guildomatic%.com",
 	"guildwork.com",
 	"guildhosting.org",
