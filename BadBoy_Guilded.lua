@@ -90,6 +90,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"join.*guild.*info", --Are you sick and tired of playing alone? Do you want to join a guild that treasures its community and values clearing WOD content together? Then wait no longer and join <*>, we'll be clearing raids, RBGs and enjoy guild events. /w for more info
 	"guild.*mature.*social", -- -*- is a large social guild with lots of friendly mature people, who enjoy the social side of the game we do classic raids, achies, rep runs if youre after a friendly social guild look no further than * and give me a wisper  :)
 	"looking.*community.*accepting", --<*> Are looking for more people. We are creating a mature and active community to participate in dungeon runs and casual raiding in WoD. Accepting all classes, whisper for more info or an invite.
+	"team.*looking.*people", --<*> LF Healer   for our raiding team,We are looking for people with excellent communication skills whom are willing to put an effort into raiding with us!
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
