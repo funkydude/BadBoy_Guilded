@@ -92,6 +92,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"looking.*community.*accepting", --<*> Are looking for more people. We are creating a mature and active community to participate in dungeon runs and casual raiding in WoD. Accepting all classes, whisper for more info or an invite.
 	"team.*looking.*people", --<*> LF Healer   for our raiding team,We are looking for people with excellent communication skills whom are willing to put an effort into raiding with us!
 	"looking.*progress.*/w", --<*> (7/7N 2/7HC) Is looking for skilled DPS + Healers for our progression to close out highmaul and move further into HC. iLvl is no prerequisite, we are looking for loyalty and potential. Sound like your kind of environment? Give me a /w!
+	"team.*social.*welcome", --<*> Lfm for fresh raid team starting with highmaul normal , ts3 , mondays at 8:30pm to 10:30pm realm time. socials also welcome  ,whisper me for info/invite.
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
