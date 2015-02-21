@@ -100,6 +100,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
 	"recruut.*guild.*welkom", --<*> recruut momenteel 1 Boomkin en 1 frost mage voor ons RBG team. Cleanse is een Nederlands talige pvp guild. Alle nederlandstalige spelers zijn welkom om te joinen. Onze we spelen op donderdagen en zondagen om 20:00. Whisp voor meer info
 	"guild.*gezellige", --<*> is een nederlandstalige casual/raiding guild. We zijn op zoek naar casual mensen die onze gezellige guild willen joinen. /w mij of * voor meer info
+	"guild.*op zoek", --<*> HM (7/7 heroic) en BRF (3/10 HC) is een nederlandstalige casual/raiding guild. We zijn op zoek naar mensen met raid experience voor ons mythic team. We raiden 3 dagen per week /w me voor meer info
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
