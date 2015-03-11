@@ -99,6 +99,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"need.*casual.*guild.*", --* 9/10 NM 2/10 HC is in need of a tank (DK pref.), A good mix of some ranged and meellee dps - and a healer (no priest)! We are a fun, casual raiding guild, with a weird sense of humor! Come and join the funhouse :D!
 	"looking.*require.*raid", --<*>  BRF 9/10 HC are currently looking for a MW monk, uh dk, ele shaman, and a warr, for our prog in  BRF,We do require that you are 18+ and can raid wednes-, sun- and mondays 20.00-23:00 and have min 670 ilvl req
 	"join.*team.*player", --{rt8} * {rt8} Want you to join our core raid team! LF 670+ players who want a softcore raid team. We raid Fri 20-23 and Sun 20-23 (Sat as alternative day) To fulfill the core team, LF Healers and ranged DPS pref you being 7/10 HC BRF.
+	"friendly.*team.*whisp", --Apart from that, we want a friendly, helpful environment in order to be able to work as a team, not individuals. Everything from Farming Honorable Kills for The Bloodthirsty title to Glory of The Raider achievements. Whisper me for a chat, thank you.
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
