@@ -194,6 +194,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*hírdet", --* (Pve/Pvp) Guild Általános TGF-et hírdet. Level és Gear nem számít. Szeretettel várunk mindenkit.
 	"hirdet.*info", --* tagfelvételt hirdet! Ha kezdõ vagy és segítségre van szülséged, esetleg raidelni is szeretnél de még nincs kivel és hol akkor itt a helyed. Normal dungeon, hc, raid, transmog farm, pvp és minden egyéb sok röhögéssel! info /w
 	"guild.*keres.*tagjait", --A * PVP guild keresi magyar tagjait arénázásra, rbg-zésre,Mivel új guild igy kialakult fix rbg teamünk nincs, minden spot open. Ha lenne valami kérdésed bátran whisp!
+	"hirdet.*csapat", --A <*> felvételt hirdet elsősorban tankok számára, de mindent meghallgatunk. Összeszokott progress csapat (HM HC 7/7, BRF norm 9/10, BRF HC 4/10), jó hangulat.
 
 	--Polish
 	"gildia.*szuka", --Polska gildia RP-PvE szuka graczy do wspolnej zabawy. Chcemy stworzyc porzadna ekipe do gry zarówno PvE jak i PvP! Jednoczesnie chcemy aby w "*" panowała miła atmosfera. Gildia stworzona przez ludzi z duzym doswiadczeniem w WoW i innych grach MMO
