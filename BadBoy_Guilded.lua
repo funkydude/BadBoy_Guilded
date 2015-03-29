@@ -179,12 +179,13 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*trazimo ljude", --* je balkanski guild lvl25 i trazimo ljude za pvp a i ostali clanovi su dobrodosli, trenutni fokus je na rbg i arenama, a i pravit ce se tim za pve progress,Clanova: 104 atm Svi  su dobrodosli{rt8}
 
 	--Hungarian
-	"guild.*játékosokat keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
+	"guild.*játékos.*keres", --* Guild játékosokat keres.Létszámtól függően Old Dungeon,RBG,Content Raid szervezése.Fejlödö szintü karaktereket is várunk.
 	"guild.*info.*wh?isp", --Hali ! * lvl 25 guild tagfelvételt hirdet minden class számára! Raidek szombaton és vasárnap délután MOP-tól! További info wisp: *
 	"klán.*raid.*karakter", --A * klán (lvl25) felnött vagy felnött gondolkodású embereket keres raidezésre, pvp-re és egyéb szórakozásokra. Nem számít a karakter vagy a felszerelés szintje, csak az igény a könnyed, stresszmentes szórakozásra.
 	"klán.*jelentkezését", --* lvl 25-ös klán újra aktív. Aktív játékosok jelentkezését várjuk, akik Pandaria altt is raidelni szeretnénke majd. Infóért írjatok rám nyugodtan.
 	"guild.*keress?ünk", --* guild tagfelvételt hírdet, amit keresünk az heal( pap,Shaman) és dps( rugó, Hunter,)! Célunk az aktuális content minél elöbbi kitakarítása normálban(ill. hcban)! Részletek whispben.
-	"guild.*keres.*játékost", --<*> Frissen alakult Magyar guild tagokat keres. Várunk szeretettel minden játékost szint/gear megkötés nélkül! Ha szeretnél tagja lenni egy aktív csapatnak írj bátran nekem, vagy Woolfie-nak!
+	--<*>  (7/7 HC HM , 9/10 norm , 4/10 HC  BRF ) guild összeszokott raidcsapattal  keres raidelésre aktív játékosokat. Részletek whispben :-)
+	"guild.*keres.*játékos", --<*> Frissen alakult Magyar guild tagokat keres. Várunk szeretettel minden játékost szint/gear megkötés nélkül! Ha szeretnél tagja lenni egy aktív csapatnak írj bátran nekem, vagy Woolfie-nak!
 	"raider.*keres.*info", --* [14/16] aktív raider jelentkezöket keres 10 fös csapatába! Bövebb információk a www.*.in weblapon.
 	"guild.*keres.*szivesen", --* guild keres olyan playereket akik már a WoD-ra készülnek.Célunk WoDra egy ütőképes társaság kialakítása.A maradék MoP időben fun raid.A klán magja 10/14HC expel rendelkezik. Mindenkit szivesen látunk :)
 	"keresi.*aktív", --Sziasztok! Az * keresi aktív, raidelni vágyó játékosait a jelenlegi contentre és a következõ kiegre! Tapasztalt, jól müködõ, jó hangulatú csapat vagyunk! Mindenkit szeretettel várunk! infoért /w me!
