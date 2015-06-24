@@ -1,4 +1,4 @@
-## Interface: 60100
+## Interface: 60200
 ## Title: BadBoy_Guilded
 ## Notes: Removes guild advertising from public channels.
 ## Notes-frFR: Enlève les publicités des guildes des canaux publiques.
