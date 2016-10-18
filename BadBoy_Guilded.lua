@@ -14,13 +14,6 @@ local prevLineId, result, triggers = 0, nil, {
 	"guildwork.com",
 	"guildhosting.org",
 	"re[cq]rui?t",
-	"^wt[bs] guild",
-	"wt[bs] %d+%+? guild",
-	"wt[bs] %d+%+? le?ve?l guild",
-	"wt[bs] le?ve?l %d+%+? guild",
-	"selling le?ve?l ?%d+ ?guild", --selling lvl25guild 100k
-	"^wtb a guild", --WTB a guild around lvl 15, make me an offer!
-	"^wtb low le?ve?l guild", --wtb low lvl guild for cheap money, any lvl will do
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
 	"www.*apply", --pls go to www.*.com to apply or wisp me for extra info.
 	"looking.*members", -- <<>> is a social levelling looking for all members no lvl requirement, Once we have more members were looking to do Raids and PvP premades, /w if you would like to join please or  /w me for info.
@@ -223,10 +216,11 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,
 		if chanId == 0 or chanId == 25 then return end --Don't scan custom channels or GuildRecruitment channel
 		local trimmedPlayer = Ambiguate(player, "none")
 		if not CanComplainChat(lineId) or UnitIsInMyGuild(trimmedPlayer) then return end --Don't filter ourself/friends
+		local rawMsg = msg
 		msg = msg:lower() --Lower all text, remove capitals
 		for i = 1, #triggers do
 			if strfind(msg, triggers[i]) then --Found a match
-				if BadBoyLog then BadBoyLog("Guilded", event, trimmedPlayer, msg) end
+				if BadBoyLog then BadBoyLog("Guilded", event, trimmedPlayer, rawMsg) end
 				result = true
 				return true --found a trigger, filter
 			end
