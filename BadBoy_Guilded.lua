@@ -375,11 +375,12 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,
 		whispPrevLineId, whispResult = lineId, nil
 		local trimmedPlayer = Ambiguate(player, "none")
 		if not BADBOY_GWHISPER or tbl[trimmedPlayer] or not CanComplainChat(lineId) or UnitIsInMyGuild(trimmedPlayer) or UnitInRaid(trimmedPlayer) or UnitInParty(trimmedPlayer) or flag == "GM" or flag == "DEV" then return end
+		local rawMsg = msg
 		msg = msg:lower() --Lower all text, remove capitals
 		for i = 1, #whispers do
 			if strfind(msg, whispers[i]) then --Found a match
 				--print(whispers[i])
-				if BadBoyLog then BadBoyLog("Guilded", event, trimmedPlayer, msg) end
+				if BadBoyLog then BadBoyLog("Guilded", event, trimmedPlayer, rawMsg) end
 				whispResult = true
 				return true --found a trigger, filter
 			end
