@@ -16,6 +16,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"guildhosting.org",
 
 	"re[cq]rui?t",
+	"recuiting",
 	"looking for.*join [ou][us]r?",--<> is Looking for Dedicated and skilled DPS and Healer classes to join us in the current 10 man  raids and expand to 25 man raids. Raids on mon,wed,thurs,sunday 21.00-24.00 18+
 	"www.*apply", --pls go to www.*.com to apply or wisp me for extra info.
 	"looking.*members", -- <<>> is a social levelling looking for all members no lvl requirement, Once we have more members were looking to do Raids and PvP premades, /w if you would like to join please or  /w me for info.
@@ -99,15 +100,20 @@ local prevLineId, result, triggers = 0, nil, {
 	"searching.*raid.*info", --<*>  (6/7M HM) (6/10 BRF M) We are Searching For an Exceptional Tank + Mage/Ele/Rogue/Moonkin! We raid wed,thurs,sun (19:30-23:00) Head over to [http://www.*.com/] or wisp me for info!
 
 	-- 2016 English
-	"looking.*raiders.*team", --"**" 7/7 N, Looking for raiders to fill our raid team for HC and Mythic. Raiding days will be at (Thursday, Saturday.) (7:30pm-10:30pm server time). We need a healer and some dps. We'll be using discord for raiding!
+	"looking.*raider.*team", --"**" 7/7 N, Looking for raiders to fill our raid team for HC and Mythic. Raiding days will be at (Thursday, Saturday.) (7:30pm-10:30pm server time). We need a healer and some dps. We'll be using discord for raiding!
 	"newl?y? formed guild", --''**''[7/7 normal 7/7 heroic] is a newly formed guild with previous mythic raiders currently in need of Healer and Rdps  We Raid 2 days a week Wed/sun 20:00-00:00 /w me for more info
 	"guild.*need.*more.*info", --<**> Guild made by weaboos for weaboos, We are now in the need of more brothers. Brothers willing to lay down their lives to save waifus. We'll clear their dungeons, raid their sacred sanctuary and save our beloved. /w for more info
+	"guild.*building.*team", --<**> We are a large friendly guild that is also building up a raiding team so if you're interested in raiding or just being a social member we are the guild for you.
+	"fill.*roster.*progress", --˜<**> (7/7HC) LFM exceptional DPS to fill our Raiding Roster for Mythic Progression. We Raid 2 Days per week , Mon/Wed 18:00-22:00ST.  /w for more info & get a Voice Application Chat.
+	"looking.*progress.*clear", --<> - 1/7M - Looking for some sick, big dick Ranged/Melee DPS + Healers for Mythic Progress - In particular: hPally, hPriest, UH DK/MM Hunter/Rogues/Shadow Priests. - Enter the dream; enjoying your real life while clearing content at a good pace.
+	"roster.*looking.*player", --<**> 7/7 HC 1/7M is LF Mage  one Hpally and one SPriest to complete our mythic raid roster. We raid 4 days/week from 19 to 22 ST. We are of course always looking for exceptionnal players.
+	"raider.*available.*night", --<**> LF Heroic raiders who are available for Wed & Thurs nights from 20:30pm Realm time. 850+ ilvl. Teamspeak req.
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
 	"recruut.*guild.*welkom", --<*> recruut momenteel 1 Boomkin en 1 frost mage voor ons RBG team. Cleanse is een Nederlands talige pvp guild. Alle nederlandstalige spelers zijn welkom om te joinen. Onze we spelen op donderdagen en zondagen om 20:00. Whisp voor meer info
 	"guild.*gezellige", --<*> is een nederlandstalige casual/raiding guild. We zijn op zoek naar casual mensen die onze gezellige guild willen joinen. /w mij of * voor meer info
-	"guild.*op zoek", --<*> HM (7/7 heroic) en BRF (3/10 HC) is een nederlandstalige casual/raiding guild. We zijn op zoek naar mensen met raid experience voor ons mythic team. We raiden 3 dagen per week /w me voor meer info
+	"guild.*op *zoek", --<*> HM (7/7 heroic) en BRF (3/10 HC) is een nederlandstalige casual/raiding guild. We zijn op zoek naar mensen met raid experience voor ons mythic team. We raiden 3 dagen per week /w me voor meer info
 
 	--Swedish
 	"rekryt", --<*> rekryterar. Vi söker aktiva spelare från Sverige och Norge. Vi är i behov av DPS (SPriest, Boomkin, DK) och en tank (warr, DK) med dps OS. Progress: 3/8 HC, raidar onsd, sön & mån 20-23. Socials är alltid välkomna!. /w för mer info
@@ -124,6 +130,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"letar.*raid.*social", --<*>(25) letar efter erfarna  rutinerad Warlock, Spriest & Reserver med healing os med sinne för humor till vårt core team för raids i MsV/HoF och annat kul, Raidtider Ons och Mån/Tis 19-23 /w för mer info (socials är välkommn
 	"söker.*spelare.*classer", --{rt1}*{rt1} Söker seriösa spelare som är intresserade av PVP och vill joina ett nytt RBG-team. Vi söker just nu alla classer!!! Du behöver 1,9k rating i RBG eller 1750 i arena. Finns några Reqs men whispra mig så tar vi dom.
 	"letar.*dedikerade.*spelare", --<**> Letar efter fler dedikerade spelare till Heroic progression 6/7. I första hand söker vi warlock och healers. Släng iväg ett whisper om det lockar!
+	"söker.*spelare.*bygga", --nystartade  <**>  Söker just nu Aktiva spelare till Raid, Söker just nu allt för att bygga upp ett Stabilt raiding lag. kommer att köra två ggr i veckan onsdag och måndag 19.30 till 22.00 /w för mer info
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
@@ -135,6 +142,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"leder efter.*members.*social", --* er lvl3 atm leder efter flere members til raid mangler healers tanks og ranged dps alle er velkommen selv om i vil raid eller være sociale bare kom med det gode humør du skal være dansk for at join eller kunne snakke det nogen lunde rent.
 	"guild.*søger", --<*> Dansk guild, søger holy/disc priest til at begynde raid. holdet består af 9/10 irl venner indtil videre.
 	"spillere.*søger.*class", --* står overfor en fornyelse. Vi er en håndfuld spillere der, efter længere tids fravær, har besluttet os at starte igen. Vi søger derfor folk til at starte fra bunden af det nuværende Tier. Alle classes og specs vil blive overvejet.
+	"søger.*spillere.*velkommen", --** - 7/7N 4/7HC. Søger Aktive spillere! R-DPS (S-Priest/Hunters/Mage/Warlocks/EleShaman ) Raid dage Mandag & Torsdag 19:30-22:30 Reqs ilvl 850+ Socials er også velkommen /w mig for mere info
 
 	--Finnish
 	"kilta.*etsii", --*, Suomalainen PvE-kilta joka etsii vain pelaajia jotka osaavat liikkua tulesta ja joita kiinnostaisi raidata 10man DS normaalia ja heroiccia jatkossa, tähtäämme parempaan tasoon kuin suurin osa servun suomikilloista! /w jos kysyttävää
