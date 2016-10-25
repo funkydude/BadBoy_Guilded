@@ -24,25 +24,25 @@ do
 	guildedWhispersText:SetText("Remove guild invite whispers")
 	local L = GetLocale()
 	if L == "frFR" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		--guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "deDE" then
 		guildedWhispersText:SetText("Entferne geflüsterte Gildeneinladungen")
 	elseif L == "zhTW" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		--guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "zhCN" then
 		guildedWhispersText:SetText("移除公会邀请密语")
 	elseif L == "esES" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		--guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "esMX" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		--guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "ruRU" then
 		guildedWhispersText:SetText("Блокировать личные сообщения, содержащие приглашения в гильдию")
 	elseif L == "koKR" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		--guildedWhispersText:SetText("Remove guild invite whispers")
 	elseif L == "ptBR" then
 		guildedWhispersText:SetText("Remove sussurros de convites de guilda")
 	elseif L == "itIT" then
-		guildedWhispersText:SetText("Remove guild invite whispers")
+		--guildedWhispersText:SetText("Remove guild invite whispers")
 	end
 
 	local guildedInvites = CreateFrame("CheckButton", nil, BadBoyConfig, "OptionsBaseCheckButtonTemplate")
