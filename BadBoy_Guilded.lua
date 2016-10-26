@@ -224,7 +224,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"набира.*членове.*нуждаем", --* набира нови членове от всички класове и специализации за прогрес на BRF Mythic,най-вече се нуждаем от Танк (Warrior, Paladin, Monk).
 }
 
-local CanComplainChat, UnitInRaid, UnitInParty, SocialQueueUtil_GetNameAndColor = CanComplainChat, UnitInRaid, UnitInParty, SocialQueueUtil_GetNameAndColor
+local BadBoyIsFriendly = BadBoyIsFriendly
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,flag,chanId,_,_,_,lineId,guid)
 	if lineId == prevLineId then
 		return result
@@ -232,8 +232,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,
 		prevLineId, result = lineId, nil
 		if chanId == 0 or chanId == 25 then return end --Don't scan custom channels or GuildRecruitment channel
 		local trimmedPlayer = Ambiguate(player, "none")
-		local _, _, relationship = SocialQueueUtil_GetNameAndColor(guid)
-		if not CanComplainChat(lineId) or UnitInRaid(trimmedPlayer) or UnitInParty(trimmedPlayer) or relationship or flag == "GM" or flag == "DEV" then return end
+		if BadBoyIsFriendly(trimmedPlayer, flag, lineId, guid) then return end
 		local rawMsg = msg
 		msg = lower(msg) --Lower all text, remove capitals
 		for i = 1, #triggers do
@@ -386,8 +385,7 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,
 	else
 		whispPrevLineId, whispResult = lineId, nil
 		local trimmedPlayer = Ambiguate(player, "none")
-		local _, _, relationship = SocialQueueUtil_GetNameAndColor(guid)
-		if not BADBOY_GWHISPER or tbl[trimmedPlayer] or not CanComplainChat(lineId) or UnitInRaid(trimmedPlayer) or UnitInParty(trimmedPlayer) or relationship or flag == "GM" or flag == "DEV" then return end
+		if not BADBOY_GWHISPER or tbl[trimmedPlayer] or BadBoyIsFriendly(trimmedPlayer, flag, lineId, guid) then return end
 		local rawMsg = msg
 		msg = lower(msg) --Lower all text, remove capitals
 		for i = 1, #whispers do
