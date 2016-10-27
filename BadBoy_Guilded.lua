@@ -131,11 +131,13 @@ local prevLineId, result, triggers = 0, nil, {
 	"söker.*spelare.*classer", --{rt1}*{rt1} Söker seriösa spelare som är intresserade av PVP och vill joina ett nytt RBG-team. Vi söker just nu alla classer!!! Du behöver 1,9k rating i RBG eller 1750 i arena. Finns några Reqs men whispra mig så tar vi dom.
 	"letar.*dedikerade.*spelare", --<**> Letar efter fler dedikerade spelare till Heroic progression 6/7. I första hand söker vi warlock och healers. Släng iväg ett whisper om det lockar!
 	"söker.*spelare.*bygga", --nystartade  <**>  Söker just nu Aktiva spelare till Raid, Söker just nu allt för att bygga upp ett Stabilt raiding lag. kommer att köra två ggr i veckan onsdag och måndag 19.30 till 22.00 /w för mer info
+	"söker.*spelare.*raidteam", --<**> (7/7 Heroic) söker nu spelare för att utöka vårt raidteam och påbörja mythic, vi söker främst hunters och mages samt 1 warlock. Vi raidar tis, tors och sön från 19.30 till 22.00 Pm för ytterligare info.
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
 	"rekruterer", -->>>*<<< Er en Norsk social /raiding guild. Vi rekruterer for å starte en ny 10man group får å cleare alt som kan cleares. Guilden er lvl 25 og nyflyttet fra bloodfeather, Vis du vil bli med bare gi oss en whisper, alle er velkommen!
 	"søger.*team.*dedikeret", --{rt1}{rt1}*{rt1}{rt1} 14/14 hc pre 6.0. Søger pt 1 healer(druid/monk) 3 dps(rogue/lock/moonkin til vores WOD mythic raid team. vi raider ons-søn-man 20.00-23.00. forventer du kender din class, du er en dedikeret raider. 18år +
+	"søker.*raidere", --<**> søker nå etter flere raidere til å fylle opp vår raid rooster. Emerald 7/7 NM 7/7HC noen core raiders har 7/7 HC. Vi raider 2-3 ganger i uken (Torsdag. Søndag, Tirsdag 19.00 - 23.00/w for info. Casuals er også velkommen.
 
 	--Danish
 	"søger.*medlemmer", --* søger flere medlemmer danskere svenskere og nordmæn
@@ -143,6 +145,8 @@ local prevLineId, result, triggers = 0, nil, {
 	"guild.*søger", --<*> Dansk guild, søger holy/disc priest til at begynde raid. holdet består af 9/10 irl venner indtil videre.
 	"spillere.*søger.*class", --* står overfor en fornyelse. Vi er en håndfuld spillere der, efter længere tids fravær, har besluttet os at starte igen. Vi søger derfor folk til at starte fra bunden af det nuværende Tier. Alle classes og specs vil blive overvejet.
 	"søger.*spillere.*velkommen", --** - 7/7N 4/7HC. Søger Aktive spillere! R-DPS (S-Priest/Hunters/Mage/Warlocks/EleShaman ) Raid dage Mandag & Torsdag 19:30-22:30 Reqs ilvl 850+ Socials er også velkommen /w mig for mere info
+	"guild.*leder.*aktive", --<**> er en dansk raiding guild, der leder efter aktive medlemmer! Vi leder eftter rutinerede og punktlige raidere. Vi raider Heroic søndage og mandage. Derudover leder vi også efter nogle til vores nye PVP team! /w for mere info:)
+	"søger.*raidhold.*guild", --<**> 7/7 N søger dps til vores raidhold. Vi er en 18+ guild med en masse positive og sjove mennesker med god aktivitet på TS3.
 
 	--Finnish
 	"kilta.*etsii", --*, Suomalainen PvE-kilta joka etsii vain pelaajia jotka osaavat liikkua tulesta ja joita kiinnostaisi raidata 10man DS normaalia ja heroiccia jatkossa, tähtäämme parempaan tasoon kuin suurin osa servun suomikilloista! /w jos kysyttävää
