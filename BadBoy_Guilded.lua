@@ -110,6 +110,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"raider.*available.*night", --<**> LF Heroic raiders who are available for Wed & Thurs nights from 20:30pm Realm time. 850+ ilvl. Teamspeak req.
 	"opening.*looking for", --<*> (5/7M | 3/3HC) is opening its doors to improve our mythic roster.  We're currently looking for exceptional mage, warlock and resto shaman. We raid Wed/Thurs/Sun 19-22 ST. Head over to ***.com for more info.
 	"roo?ster.*social.*welcome", --<**> 7/7HC 2/3HC. EXPANDING ROOSTER. LF RDPS (Spriest prio.). We are getting ready for MYTHIC raiding. NEW players and SOCIALS also welcome. WED/SUN/TUE(opt.). /W me
+	"seek.*players.*info", --<**> 7/7m core  We seek exceptional players only, Goal is to claim a top 10 Realm rank with nighthold- without pushing to hard. Range dps & Healers . 7/7M pref-, 3 days a week  Wed/Sun/Mon -19:30 -23:00, for more information about us /w
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
@@ -135,7 +136,7 @@ local prevLineId, result, triggers = 0, nil, {
 	"söker.*spelare.*bygga", --nystartade  <**>  Söker just nu Aktiva spelare till Raid, Söker just nu allt för att bygga upp ett Stabilt raiding lag. kommer att köra två ggr i veckan onsdag och måndag 19.30 till 22.00 /w för mer info
 	"söker.*spelare.*raidteam", --<**> (7/7 Heroic) söker nu spelare för att utöka vårt raidteam och påbörja mythic, vi söker främst hunters och mages samt 1 warlock. Vi raidar tis, tors och sön från 19.30 till 22.00 Pm för ytterligare info.
 	"söker.*medlemmar", --<**> söker medlemmar till sitt NYA team! Vi kommer raida Tors, Tis. 20.30-23.00.Vill du vara en del av ett nytt raid team och säkra dina chanser inför Nighthold./w mig eller *** för mer information.
-	"söker.*spelare.*roster", --<**> (7/7M EN, 3/3HC ToV) söker nu fler spelare för att fylla ut vår roster. Vi söker i nuläget En holy paladin och DPS. Vi raidar onsdag, torsdag och söndag 19-22. Vid intresse kontakta **, ** eller ** för mer info.
+	"söker.*roster", --<**> (7/7M EN, 3/3HC ToV) söker nu fler spelare för att fylla ut vår roster. Vi söker i nuläget En holy paladin och DPS. Vi raidar onsdag, torsdag och söndag 19-22. Vid intresse kontakta **, ** eller ** för mer info.
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
