@@ -18,7 +18,7 @@
 ## SavedVariablesPerCharacter: BADBOY_GWHISPER
 ## X-Category: Chat/Communication
 ## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
-## X-Curse-Project-ID: badboy_guilded
+## X-Curse-Project-ID: 24324
 ## X-WoWI-ID: 16951
 
 SimpleOptions.lua
