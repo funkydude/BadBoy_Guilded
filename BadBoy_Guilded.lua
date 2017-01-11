@@ -137,6 +137,8 @@ local prevLineId, result, triggers = 0, nil, {
 	"söker.*spelare.*raidteam", --<**> (7/7 Heroic) söker nu spelare för att utöka vårt raidteam och påbörja mythic, vi söker främst hunters och mages samt 1 warlock. Vi raidar tis, tors och sön från 19.30 till 22.00 Pm för ytterligare info.
 	"söker.*medlemmar", --<**> söker medlemmar till sitt NYA team! Vi kommer raida Tors, Tis. 20.30-23.00.Vill du vara en del av ett nytt raid team och säkra dina chanser inför Nighthold./w mig eller *** för mer information.
 	"söker.*roster", --<**> (7/7M EN, 3/3HC ToV) söker nu fler spelare för att fylla ut vår roster. Vi söker i nuläget En holy paladin och DPS. Vi raidar onsdag, torsdag och söndag 19-22. Vid intresse kontakta **, ** eller ** för mer info.
+	"söker.*spelare.*välkommna", --<**> Letar efter fler svenskar till våran raid grupp, 5/7 M, 3/3 HC. Söker range dps, men alla bra spelare är välkommna. Raid dagar är ons-tors-sön
+	"guild.*ser etter", --<**> Skandinavisk Guild 7/7 Mythic ser etter flere members til raiding teamet. Er på utkikk etter ranged dps men alle ekseptionelle spillere må bare sende en whisp. Raid Times: Onsdag og Mandag (19:00-23:00) /w meg
 
 	--Norwegian
 	"søker.*medlemmer", --"*" Søker flere norske medlemmer. Vi er nyoppstarta og begynner med DS10 + noen HC i denne uka. /w for mer info. Social er også velkomne
