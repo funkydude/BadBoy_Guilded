@@ -384,6 +384,7 @@ local whispers = {
 	"le?ve?l.*raid.*guild.*gold", --If you are going to lvl you might as well have fun doing it. We are a raid guild that allows lvlers to come enjoy the atmosphere. We offer weekly games up to 1k gold winners!!! stick around to raid or whatever. come win gold while u lvl!!!
 	"le?ve?l.*perks.*raffle.*alts", --Hey there, sorry for interrupting you but if you're going to be leveling you might aswell take advantage of our PERKS! Get some extra XP, honor, and even enter to win our WEEKLY BOE RAFFLE! Bank ALTS accepted!
 	"community.*play.*social.*welcome", --<*> is forming a powerful PvP community. We will help you get arena or RBG capped weekly, or even get some decent RBG rating. Come and play with experienced leaders; socials are welcomed too. If you dont wanna get /w again pls tell me.
+	"join.*member.*repair", --**, join or renew your membership today for the ** of Illidan. We stand for a realm that is strong, united, independent, and free! (Socialist repairs provided)
 
 	"gilde.*kommen.*le?ve?l", --Hättest du lust in meine Gilde zu kommen? Nur bist du 90 bist oder was besseres geunden hast oder so? Damit du nebenbei meine Gilde mit Leveln würdest, haben schon Stufe 4
 	"gilde.*rbg.*begrüßen", --Hi hast du lust in die Gilde * zu kommen? Machen gemeinsame Inis, Bgs, Erfolge usw. Sind im Neuaufbau daher sind für RBG Gruppe und Raid Gruppe noch Plätze frei! Würden uns freuen dich bei uns begrüßen zu dürfen =)
