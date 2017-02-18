@@ -392,7 +392,10 @@ local whispers = {
 }
 
 local tbl, whispPrevLineId, whispResult = {}, 0, nil
+local IsInGuild = IsInGuild
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,_,_,_,flag,_,_,_,_,lineId,guid)
+	if IsInGuild() then return end
+
 	if lineId == whispPrevLineId then
 		return whispResult
 	else
@@ -412,6 +415,8 @@ ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,
 end)
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER_INFORM", function(_,_,_,player)
+	if IsInGuild() then return end
+
 	local trimmedPlayer = Ambiguate(player, "none")
 	if BADBOY_GWHISPER and not tbl[trimmedPlayer] then tbl[trimmedPlayer] = true end
 end)
