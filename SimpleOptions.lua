@@ -7,7 +7,11 @@ do
 	guildedWhispers:SetScript("OnClick", function(frame)
 		local tick = frame:GetChecked()
 		BADBOY_GWHISPER = tick
-		PlaySound(tick and "igMainMenuOptionCheckBoxOn" or "igMainMenuOptionCheckBoxOff")
+		if tick then
+			PlaySound(PlaySoundKitID and "igMainMenuOptionCheckBoxOn" or 856) -- SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON
+		else
+			PlaySound(PlaySoundKitID and "igMainMenuOptionCheckBoxOff" or 857) -- SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_OFF
+		end
 	end)
 	guildedWhispers:SetScript("OnShow", function(frame)
 		frame:SetChecked(BADBOY_GWHISPER)
@@ -45,7 +49,11 @@ do
 	guildedInvites:SetScript("OnClick", function(frame)
 		local tick = frame:GetChecked()
 		SetAutoDeclineGuildInvites(tick)
-		PlaySound(tick and "igMainMenuOptionCheckBoxOn" or "igMainMenuOptionCheckBoxOff")
+		if tick then
+			PlaySound(PlaySoundKitID and "igMainMenuOptionCheckBoxOn" or 856) -- SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_ON
+		else
+			PlaySound(PlaySoundKitID and "igMainMenuOptionCheckBoxOff" or 857) -- SOUNDKIT.IG_MAINMENU_OPTION_CHECKBOX_OFF
+		end
 	end)
 	guildedInvites:SetScript("OnShow", function(frame)
 		frame:SetChecked(GetAutoDeclineGuildInvites())
