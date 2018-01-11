@@ -9,6 +9,8 @@ local prevLineId, result, triggers = 0, nil, {
 	"wowlaunch%.com",
 	"guildportal%.com",
 	"shivtr%.com",
+	"%.wowhordes%.com",
+	"%.weebly%.com",
 	"enjin%.com",
 	"%.wix%.com",
 	"guildomatic%.com",
@@ -111,6 +113,9 @@ local prevLineId, result, triggers = 0, nil, {
 	"opening.*looking for", --<*> (5/7M | 3/3HC) is opening its doors to improve our mythic roster.  We're currently looking for exceptional mage, warlock and resto shaman. We raid Wed/Thurs/Sun 19-22 ST. Head over to ***.com for more info.
 	"roo?ster.*social.*welcome", --<**> 7/7HC 2/3HC. EXPANDING ROOSTER. LF RDPS (Spriest prio.). We are getting ready for MYTHIC raiding. NEW players and SOCIALS also welcome. WED/SUN/TUE(opt.). /W me
 	"seek.*players.*info", --<**> 7/7m core  We seek exceptional players only, Goal is to claim a top 10 Realm rank with nighthold- without pushing to hard. Range dps & Healers . 7/7M pref-, 3 days a week  Wed/Sun/Mon -19:30 -23:00, for more information about us /w
+
+	-- 2018 English
+	"spot.*discord.*wowprogress", --<**> [1/11M] Have a slot open for an experienced Blood DK or Guardian druid. You should have 11/11HC and 950ilvl equipped and also be able to communicate effectively on Discord whilst playing. Check our wowprogress. Wed/Thu/Sun 20:30-23:30 /w me
 
 	--Dutch
 	"guild.*zoek naar.*social", -- [25] Nederlands sprekende Guild <*> zijn op zoek naar Tanks: Geen / Melee dps: Warrior / Ranger dps: warlock, Mage / Healers: Paladin / raid tijden ma, di ,do van 20:00ST tot 23:00ST, social invite is ook mogelijk whisper voor meer info.
