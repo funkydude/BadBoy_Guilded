@@ -8,4 +8,4 @@
 * Option to block guild invite whisper advertisements
 
 ## Download
-https://mods.curse.com/addons/wow/badboy_guilded
+https://www.curseforge.com/wow/addons/badboy_guilded
