@@ -1,7 +1,2 @@
 package-as: BadBoy_Guilded
 wowi-archive-previous: no
-
-ignore:
-  - .travis.yml
-  - ISSUE_TEMPLATE.md
-  - README.md
