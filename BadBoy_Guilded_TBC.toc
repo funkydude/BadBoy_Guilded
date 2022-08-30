@@ -20,6 +20,7 @@
 ## X-License: All Rights Reserved: You are free to fork and modify on GitHub, please ask us about anything else.
 ## X-Curse-Project-ID: 24324
 ## X-WoWI-ID: 16951
+## X-Wago-ID: WqKQln6x
 
 SimpleOptions.lua
 BadBoy_Guilded.lua
