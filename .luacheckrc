@@ -9,6 +9,7 @@ globals = {
 	"BadBoyLog",
 	"ChatFrame_AddMessageEventFilter",
 	"IsInGuild",
+	"issecretvalue",
 
 	-- Options
 	"BadBoyConfig",

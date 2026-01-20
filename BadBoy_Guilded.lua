@@ -243,7 +243,9 @@ local prevLineId, result, triggers = 0, nil, {
 }
 
 local BadBoyIsFriendly = BadBoyIsFriendly
+local issecretvalue = issecretvalue or function() return false end
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,flag,chanId,_,_,_,lineId,guid)
+	if issecretvalue(msg) then return end
 	if lineId == prevLineId then
 		return result
 	else
@@ -401,6 +403,7 @@ local tbl, whispPrevLineId, whispResult = {}, 0, nil
 local IsInGuild = IsInGuild
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER", function(_,event,msg,player,_,_,_,flag,_,_,_,_,lineId,guid)
 	if IsInGuild() then return end
+	if issecretvalue(msg) then return end
 
 	if lineId == whispPrevLineId then
 		return whispResult
@@ -422,6 +425,7 @@ end)
 
 ChatFrame_AddMessageEventFilter("CHAT_MSG_WHISPER_INFORM", function(_,_,_,player)
 	if IsInGuild() then return end
+	if issecretvalue(player) then return end
 
 	local trimmedPlayer = Ambiguate(player, "none")
 	if BADBOY_GWHISPER and not tbl[trimmedPlayer] then tbl[trimmedPlayer] = true end
