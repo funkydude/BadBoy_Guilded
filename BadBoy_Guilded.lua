@@ -244,6 +244,7 @@ local prevLineId, result, triggers = 0, nil, {
 
 local BadBoyIsFriendly = BadBoyIsFriendly
 local issecretvalue = issecretvalue or function() return false end
+local ChatFrame_AddMessageEventFilter = ChatFrameUtil and ChatFrameUtil.AddMessageEventFilter or ChatFrame_AddMessageEventFilter
 ChatFrame_AddMessageEventFilter("CHAT_MSG_CHANNEL", function(_,event,msg,player,_,_,_,flag,chanId,_,_,_,lineId,guid)
 	if issecretvalue(msg) then return end
 	if lineId == prevLineId then
